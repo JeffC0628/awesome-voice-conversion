@@ -1,4 +1,4 @@
-# awesome-speech-recognition-speech-synthesis-papers
+# awesome-voice-conversion-papers-projects
 Here is some papers which I collected very interesting in speech field, may they help you.
 
 ## Overview
@@ -225,6 +225,23 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 - **PeriodNet: A non-autoregressive waveform generation model with a structure separating periodic and aperiodic components**(2021), Yukiya Hono et al. [[Paper]](https://arxiv.org/pdf/2102.07786)
 
 
+### Sing Voice Conversion
+
+- Lu, Junchen, et al. "**VAW-GAN for Singing Voice Conversion with Non-parallel Training Data.**" *2020 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC). IEEE, 2020*.[[Paper]](https://arxiv.org/pdf/2008.03992.pdf) [[Project]](https://github.com/KunZhou9646/Singing-Voice-Conversion-with-conditional-VAW-GAN)
+
+- SingingVoiceConversion[[Project]](https://github.com/jshong0907/SingingVoiceConversion), Singing-Voice-Conversion[[Project]](https://github.com/solalala-12/Singing-Voice-Conversion)
+
+- Mor, Noam, et al. "**A universal music translation network.**" *arXiv preprint arXiv:1805.07848(2018)*.[[Paper]](https://arxiv.org/abs/1805.07848) [[Project]](https://github.com/facebookresearch/music-translation)
+
+- Guo, Haohan, et al. "**Phonetic Posteriorgrams based Many-to-Many Singing Voice Conversion via Adversarial Training.**" *arXiv preprint arXiv:2012.01837(2020)*.[[Paper]](https://arxiv.org/abs/2012.01837) [[Project]](https://github.com/hhguo/EA-SVC)
+
+- Takahashi, Naoya, Mayank Kumar Singh, and Yuki Mitsufuji. "**Hierarchical disentangled representation learning for singing voice conversion.**" *arXiv preprint arXiv:2101.06842(2021)*.[[Paper]](https://arxiv.org/pdf/2101.06842.pdf)
+
+- Basak, Sakya, et al. "**End-to-end lyrics Recognition with Voice to Singing Style Transfer.**" *arXiv preprint arXiv:2102.08575(2021).*[[Paper]](https://arxiv.org/pdf/2102.08575.pdf)
+
+- Sankaran, Shreeviknesh, Sukavanan Nanjundan, and G. Paavai Anand. "**Anyone GAN Sing.**" *arXiv preprint arXiv:2102.11058(2021).*[[Paper]](https://arxiv.org/pdf/2102.11058.pdf)
+
+
 ### Interesting papers
 
 - **The Reversible Residual Network: Backpropagation Without Storing Activations**(2017), Aidan N. Gomez et al. [[Paper]](https://arxiv.org/pdf/1707.04585)
@@ -241,22 +258,6 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 
 - **Attention is Not Only a Weight: Analyzing Transformers with Vector Norms**(2020), Goro Kobayashi et al. [[Paper]](https://arxiv.org/pdf/2004.10102)
 
-
-### Sing Voice Conversion
-
-- Lu, Junchen, et al. "**VAW-GAN for Singing Voice Conversion with Non-parallel Training Data.**" *2020 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC). IEEE, 2020*.[[Paper]](https://arxiv.org/pdf/2008.03992.pdf) [[Project]](https://github.com/KunZhou9646/Singing-Voice-Conversion-with-conditional-VAW-GAN)
-
-- SingingVoiceConversion[[Project]](https://github.com/jshong0907/SingingVoiceConversion), Singing-Voice-Conversion[[Project]](https://github.com/solalala-12/Singing-Voice-Conversion)
-
-- Mor, Noam, et al. "**A universal music translation network.**" *arXiv preprint arXiv:1805.07848(2018)*.[[Paper]](https://arxiv.org/abs/1805.07848) [[Project]](https://github.com/facebookresearch/music-translation)
-
-- Guo, Haohan, et al. "**Phonetic Posteriorgrams based Many-to-Many Singing Voice Conversion via Adversarial Training.**" *arXiv preprint arXiv:2012.01837(2020)*.[[Paper]](https://arxiv.org/abs/2012.01837) [[Project]](https://github.com/hhguo/EA-SVC)
-
-- Takahashi, Naoya, Mayank Kumar Singh, and Yuki Mitsufuji. "**Hierarchical disentangled representation learning for singing voice conversion.**" *arXiv preprint arXiv:2101.06842(2021)*.[[Paper]](https://arxiv.org/pdf/2101.06842.pdf)
-
-- Basak, Sakya, et al. "**End-to-end lyrics Recognition with Voice to Singing Style Transfer.**" *arXiv preprint arXiv:2102.08575(2021).*[[Paper]](https://arxiv.org/pdf/2102.08575.pdf)
-
-- Sankaran, Shreeviknesh, Sukavanan Nanjundan, and G. Paavai Anand. "**Anyone GAN Sing.**" *arXiv preprint arXiv:2102.11058(2021).*[[Paper]](https://arxiv.org/pdf/2102.11058.pdf)
 
 ## Contact Me
 If you have any questions, Contact Me :**jeffcheng0628@gmail.com**. thanks
