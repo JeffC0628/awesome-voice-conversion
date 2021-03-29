@@ -1,4 +1,4 @@
-# awesome-voice-conversion-papers-projects
+# Awesome-Voice-Conversion-Papers-Projects
 Here is some papers which I collected very interesting in speech field, may they help you.
 
 ## Overview
