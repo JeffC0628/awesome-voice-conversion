@@ -259,5 +259,5 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 - Sankaran, Shreeviknesh, Sukavanan Nanjundan, and G. Paavai Anand. "**Anyone GAN Sing.**" *arXiv preprint arXiv:2102.11058(2021).*[[Paper]](https://arxiv.org/pdf/2102.11058.pdf)
 
 ## Contact Me
-If you got any questions, Contact Me :**jeffcheng0628@gmail.com**.
+If you have any questions, Contact Me :**jeffcheng0628@gmail.com**. thanks
 
