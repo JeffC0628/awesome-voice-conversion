@@ -260,5 +260,4 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 
 
 ## Contact Me
-If you have any questions, Contact Me :**jeffcheng0628@gmail.com**. thanks
-
+If you have any questions, Contact Me ，thanks
