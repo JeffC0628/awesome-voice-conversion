@@ -211,6 +211,8 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 
 :heavy_check_mark: - Cifka, Ondrej, et al. "**Self-Supervised VQ-VAE For One-Shot Music Style Transfer.**" *arXiv preprint arXiv:2102.05749(2021)*.[[Paper]](https://arxiv.org/abs/2102.05749) [[Project]](https://github.com/cifkao/ss-vq-vae)
 
+:heavy_check_mark: - Liu, Songxiang, et al. "**Any-to-Many Voice Conversion with Location-Relative Sequence-to-Sequence Modeling.**" arXiv preprint arXiv:2009.02725 (2020). [[Project]](https://github.com/liusongxiang/ppg-vc)
+
 
 ### Music Modelling
 
