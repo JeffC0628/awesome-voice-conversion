@@ -242,6 +242,7 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 - Basak, Sakya, et al. "**End-to-end lyrics Recognition with Voice to Singing Style Transfer.**" *arXiv preprint arXiv:2102.08575(2021).*[[Paper]](https://arxiv.org/pdf/2102.08575.pdf)
 
 - Sankaran, Shreeviknesh, Sukavanan Nanjundan, and G. Paavai Anand. "**Anyone GAN Sing.**" *arXiv preprint arXiv:2102.11058(2021).*[[Paper]](https://arxiv.org/pdf/2102.11058.pdf)
+- Tae, Jaesung, Hyeongju Kim, and Younggun Lee. "MLP Singer: Towards Rapid Parallel Korean Singing Voice Synthesis." *arXiv preprint arXiv:2106.07886 (2021).*[[Paper]](https://arxiv.org/pdf/2106.07886.pdf) [[Projects]](https://github.com/CODEJIN/MLPSinger)
 
 
 ### Interesting papers
