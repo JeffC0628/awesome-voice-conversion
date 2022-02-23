@@ -109,7 +109,13 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 
 ##### 4. Paper & Projects
 
-:heavy_check_mark: - Liu, Songxiang, et al. "Any-to-many voice conversion with location-relative sequence-to-sequence modeling." IEEE/ACM Transactions on Audio, Speech, and Language Processing 29 (2021): 1717-1728.. [[Paper]](https://arxiv.org/abs/2009.02725v3) [[Project]](https://github.com/liusongxiang/ppg-vc)
+:heavy_check_mark: - Liu, Songxiang, et al. "**Any-to-many voice conversion with location-relative sequence-to-sequence modeling.**" IEEE/ACM Transactions on Audio, Speech, and Language Processing 29 (2021): 1717-1728.. [[Paper]](https://arxiv.org/abs/2009.02725v3) [[Project]](https://github.com/liusongxiang/ppg-vc)
+
+:heavy_check_mark: - Neekhara, Paarth, et al. "**Expressive Neural Voice Cloning.**" *arXiv preprint arXiv:2102.00151(2021)*.[[Paper]](https://www.arxiv-vanity.com/papers/2102.00151/)
+
+:heavy_check_mark: - Cifka, Ondrej, et al. "**Self-Supervised VQ-VAE For One-Shot Music Style Transfer.**" *arXiv preprint arXiv:2102.05749(2021)*.[[Paper]](https://arxiv.org/abs/2102.05749) [[Project]](https://github.com/cifkao/ss-vq-vae)
+
+:heavy_check_mark: - Zhao, Shengkui, et al. "**Towards Natural and Controllable Cross-Lingual Voice Conversion Based on Neural TTS Model and Phonetic Posteriorgram.**"*arXiv preprint arXiv:2102.01991(2021)*.[[Paper]](https://www.arxiv-vanity.com/papers/2102.01991/)
 
 :heavy_check_mark: - H. Kameoka, T. Kaneko, K. Tanaka, and N. Hojo. "**StarGAN-VC: Non-parallel Many-to-Many Voice Conversion with Star Generative Adversarial Networks.**" *arXiv:1806.02169, June 2018* (SLT, 2018). [[Paper]](https://arxiv.org/abs/1806.02169) [[Project]](https://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/stargan-vc/)
 
@@ -203,17 +209,10 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 
 :heavy_check_mark: - Serrà, Joan, Santiago Pascual, and Carlos Segura. "**Blow: a single-scale hyperconditioned flow for non-parallel raw-audio voice conversion.**"*arXiv preprint arXiv:1906.00794(2019)*.[[Paper]](https://www.dropbox.com/s/6bovin589qr78l8/Blow.pdf?dl=0)
 
-:heavy_check_mark: - Zhao, Shengkui, et al. "**Towards Natural and Controllable Cross-Lingual Voice Conversion Based on Neural TTS Model and Phonetic Posteriorgram.**"*arXiv preprint arXiv:2102.01991(2021)*.[[Paper]](https://www.arxiv-vanity.com/papers/2102.01991/)
-
 :heavy_check_mark: - **Voice conversion using deep Bidirectional Long Short-Term Memory based Recurrent Neural Networks**(2015), *Lifa Sun et al*. [[Paper]](https://ieeexplore.ieee.org/document/7178896)
 
 :heavy_check_mark: - **Phonetic posteriorgrams for many-to-one voice conversion without parallel data training**(2016), *Lifa Sun et al*. [[Paper]](https://ieeexplore.ieee.org/document/7552917)
 
-:heavy_check_mark: - Neekhara, Paarth, et al. "**Expressive Neural Voice Cloning.**" *arXiv preprint arXiv:2102.00151(2021)*.[[Paper]](https://www.arxiv-vanity.com/papers/2102.00151/)
-
-:heavy_check_mark: - Cifka, Ondrej, et al. "**Self-Supervised VQ-VAE For One-Shot Music Style Transfer.**" *arXiv preprint arXiv:2102.05749(2021)*.[[Paper]](https://arxiv.org/abs/2102.05749) [[Project]](https://github.com/cifkao/ss-vq-vae)
-
-:heavy_check_mark: - Liu, Songxiang, et al. "**Any-to-Many Voice Conversion with Location-Relative Sequence-to-Sequence Modeling.**" arXiv preprint arXiv:2009.02725 (2020). [[Project]](https://github.com/liusongxiang/ppg-vc)
 
 
 ### Music Modelling
