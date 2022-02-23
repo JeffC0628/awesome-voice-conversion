@@ -109,6 +109,8 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 
 ##### 4. Paper & Projects
 
+:heavy_check_mark: - Liu, Songxiang, et al. "Any-to-many voice conversion with location-relative sequence-to-sequence modeling." IEEE/ACM Transactions on Audio, Speech, and Language Processing 29 (2021): 1717-1728.. [[Paper]](https://arxiv.org/abs/2009.02725v3) [[Project]](https://github.com/liusongxiang/ppg-vc)
+
 :heavy_check_mark: - H. Kameoka, T. Kaneko, K. Tanaka, and N. Hojo. "**StarGAN-VC: Non-parallel Many-to-Many Voice Conversion with Star Generative Adversarial Networks.**" *arXiv:1806.02169, June 2018* (SLT, 2018). [[Paper]](https://arxiv.org/abs/1806.02169) [[Project]](https://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/stargan-vc/)
 
 :heavy_check_mark: - J. Lorenzo-Trueba, J. Yamagishi, T. Toda, D. Saito, F. Villavicencio, T. Kinnunen, and Z. Ling. "**The Voice Conversion Challenge 2018: Promoting Development of Parallel and Nonparallel Methods.**" *Speaker Odyssey, 2018*. [[Paper]](https://arxiv.org/abs/1804.04262) [[Dataset]](https://datashare.ed.ac.uk/handle/10283/3061)
