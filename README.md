@@ -109,6 +109,8 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 
 ##### 4. Paper & Projects
 
+:heavy_check_mark: - Zhao, Xintao, et al. "**Disentangling Content and Fine-Grained Prosody Information Via Hybrid ASR Bottleneck Features for Voice Conversion.**" ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2022.. [[Paper]](https://arxiv.org/pdf/2203.12813.pdf) [[Project]](https://thuhcsi.github.io/icassp2022-hybrid-bottleneck-vc/)
+
 :heavy_check_mark: - Liu, Songxiang, et al. "**Any-to-many voice conversion with location-relative sequence-to-sequence modeling.**" IEEE/ACM Transactions on Audio, Speech, and Language Processing 29 (2021): 1717-1728.. [[Paper]](https://arxiv.org/abs/2009.02725v3) [[Project]](https://github.com/liusongxiang/ppg-vc)
 
 :heavy_check_mark: - Neekhara, Paarth, et al. "**Expressive Neural Voice Cloning.**" *arXiv preprint arXiv:2102.00151(2021)*.[[Paper]](https://www.arxiv-vanity.com/papers/2102.00151/)
