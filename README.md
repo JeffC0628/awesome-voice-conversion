@@ -109,6 +109,8 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 
 ##### 4. Paper & Projects
 
+:heavy_check_mark: - Popov, Vadim, et al. "**Diffusion-based voice conversion with fast maximum likelihood sampling scheme.**" arXiv preprint arXiv:2109.13821 (2021). [[Paper]](https://arxiv.org/pdf/2109.13821.pdf) [[Project]](https://github.com/huawei-noah/Speech-Backbones/tree/main/DiffVC)
+
 :heavy_check_mark: - Nguyen, Bac, and Fabien Cardinaux. "**Nvc-net: End-to-end adversarial voice conversion.**" ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2022. [[Paper]](https://arxiv.org/abs/2106.00992) [[Project]](https://github.com/sony/ai-research-code/tree/master/nvcnet)
 
 :heavy_check_mark: - Zhao, Xintao, et al. "**Disentangling Content and Fine-Grained Prosody Information Via Hybrid ASR Bottleneck Features for Voice Conversion.**" ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2022.. [[Paper]](https://arxiv.org/pdf/2203.12813.pdf) [[Project]](https://thuhcsi.github.io/icassp2022-hybrid-bottleneck-vc/)
