@@ -109,6 +109,8 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 
 ##### 4. Paper & Projects
 
+:heavy_check_mark: - Yuan, Ruibin, et al. "**DeID-VC: Speaker De-identification via Zero-shot Pseudo Voice Conversion.**" arXiv preprint arXiv:2209.04530 (2022).[[Paper]](https://arxiv.org/abs/2209.04530) [[Project]](https://github.com/a43992899/DeID-VC)
+
 :heavy_check_mark: - Popov, Vadim, et al. "**Diffusion-based voice conversion with fast maximum likelihood sampling scheme.**" arXiv preprint arXiv:2109.13821 (2021). [[Paper]](https://arxiv.org/pdf/2109.13821.pdf) [[Project]](https://github.com/huawei-noah/Speech-Backbones/tree/main/DiffVC)
 
 :heavy_check_mark: - Nguyen, Bac, and Fabien Cardinaux. "**Nvc-net: End-to-end adversarial voice conversion.**" ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2022. [[Paper]](https://arxiv.org/abs/2106.00992) [[Project]](https://github.com/sony/ai-research-code/tree/master/nvcnet)
