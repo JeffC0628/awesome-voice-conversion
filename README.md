@@ -234,7 +234,7 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 - **PeriodNet: A non-autoregressive waveform generation model with a structure separating periodic and aperiodic components**(2021), Yukiya Hono et al. [[Paper]](https://arxiv.org/pdf/2102.07786)
 
 
-### Sing Voice Conversion
+### Singing Voice Conversion
 
 - Lu, Junchen, et al. "**VAW-GAN for Singing Voice Conversion with Non-parallel Training Data.**" *2020 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC). IEEE, 2020*.[[Paper]](https://arxiv.org/pdf/2008.03992.pdf) [[Project]](https://github.com/KunZhou9646/Singing-Voice-Conversion-with-conditional-VAW-GAN)
 
