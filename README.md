@@ -109,6 +109,8 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 
 ##### 4. Paper & Projects
 
+:heavy_check_mark: - Kashkin, Anton, Ivan Karpukhin, and Svyatoslav Shishkin. "**HiFi-VC: High Quality ASR-Based Voice Conversion.**" arXiv preprint arXiv:2203.16937 (2022)..[[Paper]](https://arxiv.org/abs/2203.16937) [[Project]](https://github.com/tinkoff-ai/hifi_vc)
+
 :heavy_check_mark: - Yuan, Ruibin, et al. "**DeID-VC: Speaker De-identification via Zero-shot Pseudo Voice Conversion.**" arXiv preprint arXiv:2209.04530 (2022).[[Paper]](https://arxiv.org/abs/2209.04530) [[Project]](https://github.com/a43992899/DeID-VC)
 
 :heavy_check_mark: - Popov, Vadim, et al. "**Diffusion-based voice conversion with fast maximum likelihood sampling scheme.**" arXiv preprint arXiv:2109.13821 (2021). [[Paper]](https://arxiv.org/pdf/2109.13821.pdf) [[Project]](https://github.com/huawei-noah/Speech-Backbones/tree/main/DiffVC)
