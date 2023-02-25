@@ -273,6 +273,7 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 - **Audio2Face: Generating Speech/Face Animation from Single Audio with Attention-Based Bidirectional LSTM Networks**(2019), Guanzhong Tian et al. [[Paper]](https://arxiv.org/pdf/1905.11142)
 
 - **Attention is Not Only a Weight: Analyzing Transformers with Vector Norms**(2020), Goro Kobayashi et al. [[Paper]](https://arxiv.org/pdf/2004.10102)
+- **Speak Like a Dog: Human to Non-human creature Voice Conversion**(2022), Kohei Suzuki et al. [[Paper]](https://arxiv.org/abs/2206.04780)
 
 
 ## Contact Me
