@@ -109,7 +109,7 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 
 ##### 4. Paper & Projects
 
-:heavy_check_mark: - Park, Hyun Joon, et al. "**TriAAN-VC: Triple Adaptive Attention Normalization for Any-to-Any Voice Conversion.**" [[Paper]](https://arxiv.org/abs/2303.09057) 
+:heavy_check_mark: - Park, Hyun Joon, et al. "**TriAAN-VC: Triple Adaptive Attention Normalization for Any-to-Any Voice Conversion.**" [[Paper]](https://arxiv.org/abs/2303.09057) [[Project]](https://github.com/winddori2002/TriAAN-VC)
 
 :heavy_check_mark: - Li, Jingyi, Weiping Tu, and Li Xiao. "**FreeVC: Towards High-Quality Text-Free One-Shot Voice Conversion.**"[[Paper]](https://arxiv.org/abs/2210.15418) [[Project]](https://github.com/OlaWod/FreeVC)
 
