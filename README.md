@@ -109,6 +109,8 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 
 ##### 4. Paper & Projects
 
+:heavy_check_mark: -Li, Yinghao Aaron, Cong Han, and Nima Mesgarani. "**Styletts-vc: One-shot voice conversion by knowledge transfer from style-based tts models.**" 2022 IEEE Spoken Language Technology Workshop (SLT). IEEE, 2023. [[Paper]](https://arxiv.org/abs/2212.14227) [[Project]](https://github.com/yl4579/StyleTTS-VC)
+
 :heavy_check_mark: - Lu, Hui, et al. "**Disentangled Speech Representation Learning for One-Shot Cross-Lingual Voice Conversion Using ß-VAE.**" 2022 IEEE Spoken Language Technology Workshop (SLT). IEEE, 2023. [[Paper]](https://www1.se.cuhk.edu.hk/~hccl/publications/pub/2023%20SLT2022-Beta_VAE_based_one_shot_cross_lingual_VC.pdf) [[Project]](https://github.com/light1726/BetaVAE_VC)
 
 :heavy_check_mark: - Park, Hyun Joon, et al. "**TriAAN-VC: Triple Adaptive Attention Normalization for Any-to-Any Voice Conversion.**" [[Paper]](https://arxiv.org/abs/2303.09057) [[Project]](https://github.com/winddori2002/TriAAN-VC)
