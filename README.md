@@ -109,6 +109,8 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 
 ##### 4. Paper & Projects
 
+:heavy_check_mark: -Kang, Wonjune, Mark Hasegawa-Johnson, and Deb Roy. "**End-to-End Zero-Shot Voice Conversion with Location-Variable Convolutions.**" arXiv preprint arXiv:2205.09784 (2022). [[Paper]](https://arxiv.org/abs/2205.09784) [[Project]](https://github.com/wonjune-kang/lvc-vc))
+
 :heavy_check_mark: -Baas, Matthew, Benjamin van Niekerk, and Herman Kamper. "**Voice Conversion With Just Nearest Neighbors.**" arXiv preprint arXiv:2305.18975 (2023). [[Paper]](https://arxiv.org/pdf/2305.18975.pdf) [[Project]](https://github.com/bshall/knn-vc))
 
 :heavy_check_mark: -Li, Yinghao Aaron, Cong Han, and Nima Mesgarani. "**Styletts-vc: One-shot voice conversion by knowledge transfer from style-based tts models.**" 2022 IEEE Spoken Language Technology Workshop (SLT). IEEE, 2023. [[Paper]](https://arxiv.org/abs/2212.14227) [[Project]](https://github.com/yl4579/StyleTTS-VC)
