@@ -109,6 +109,8 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 
 ##### 4. Paper & Projects
 
+:heavy_check_mark: -Shan, Siyuan, et al. "**Phoneme Hallucinator: One-shot Voice Conversion via Set Expansion.**" arXiv preprint arXiv:2308.06382 (2023). [[Paper]](https://arxiv.org/abs/2308.06382) [[Project]](https://github.com/PhonemeHallucinator/Phoneme_Hallucinator))
+
 :heavy_check_mark: -Kang, Wonjune, Mark Hasegawa-Johnson, and Deb Roy. "**End-to-End Zero-Shot Voice Conversion with Location-Variable Convolutions.**" arXiv preprint arXiv:2205.09784 (2022). [[Paper]](https://arxiv.org/abs/2205.09784) [[Project]](https://github.com/wonjune-kang/lvc-vc))
 
 :heavy_check_mark: -Baas, Matthew, Benjamin van Niekerk, and Herman Kamper. "**Voice Conversion With Just Nearest Neighbors.**" arXiv preprint arXiv:2305.18975 (2023). [[Paper]](https://arxiv.org/pdf/2305.18975.pdf) [[Project]](https://github.com/bshall/knn-vc))
