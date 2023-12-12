@@ -9,6 +9,9 @@ Here are some interesting papers in speech field which I collected, may they hel
 
 - [Interesting papers](#Interesting-papers)
 
+### Update Project
+
+:heavy_check_mark: -Choi, Ha-Yeong, Sang-Hoon Lee, and Seong-Whan Lee. "**Diff-HierVC: Diffusion-based Hierarchical Voice Conversion with Robust Pitch Generation and Masked Prior for Zero-shot Speaker Adaptation.**" arXiv preprint arXiv:2311.04693 (2023). [[Paper]](https://arxiv.org/abs/2311.04693) [[Project]](https://github.com/hayeong0/Diff-HierVC))
 
 ### Voice Conversion
 
@@ -108,6 +111,8 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 - **Audio-Style-Transfer** Neural Style Transfer for Audio Spectrograms
 
 ##### 4. Paper & Projects
+
+:heavy_check_mark: -Choi, Ha-Yeong, Sang-Hoon Lee, and Seong-Whan Lee. "**Diff-HierVC: Diffusion-based Hierarchical Voice Conversion with Robust Pitch Generation and Masked Prior for Zero-shot Speaker Adaptation.**" arXiv preprint arXiv:2311.04693 (2023). [[Paper]](https://arxiv.org/abs/2311.04693) [[Project]](https://github.com/hayeong0/Diff-HierVC))
 
 :heavy_check_mark: -Sadov, Konstantine, Matthew Hutter, and Asara Near. "**Low-latency Real-time Voice Conversion on CPU.**" arXiv preprint arXiv:2311.00873 (2023). [[Paper]](https://koe.ai/papers/llvc.pdf) [[Project]](https://github.com/KoeAI/LLVC))
 
