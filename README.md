@@ -11,9 +11,9 @@ Here are some interesting papers in speech field which I collected, may they hel
 
 ### Update Project
 
-:heavy_check_mark: -Oh, Hyoung-Seok, et al. "**DurFlex-EVC: Duration-Flexible Emotional Voice Conversion with Parallel Generation.**" arXiv preprint arXiv:2401.08095 (2024). [[Paper]](https://arxiv.org/pdf/2401.08095v1.pdf) [[Project]](https://github.com/hs-oh-prml/durflexevc))
+:heavy_check_mark: "**X-E-Speech: Joint Training Framework of Non-Autoregressive Cross-lingual Emotional Text-to-Speech and Voice Conversion**"  [[Paper]](https://openreview.net/pdf?id=J4fL6FDz36) [[Project]](https://github.com/X-E-Speech/X-E-Speech-code))
 
-:heavy_check_mark: -Choi, Ha-Yeong, Sang-Hoon Lee, and Seong-Whan Lee. "**Diff-HierVC: Diffusion-based Hierarchical Voice Conversion with Robust Pitch Generation and Masked Prior for Zero-shot Speaker Adaptation.**" arXiv preprint arXiv:2311.04693 (2023). [[Paper]](https://arxiv.org/abs/2311.04693) [[Project]](https://github.com/hayeong0/Diff-HierVC))
+:heavy_check_mark: -Oh, Hyoung-Seok, et al. "**DurFlex-EVC: Duration-Flexible Emotional Voice Conversion with Parallel Generation.**" arXiv preprint arXiv:2401.08095 (2024). [[Paper]](https://arxiv.org/pdf/2401.08095v1.pdf) [[Project]](https://github.com/hs-oh-prml/durflexevc))
 
 ### Voice Conversion
 
