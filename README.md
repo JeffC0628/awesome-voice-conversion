@@ -1,5 +1,10 @@
 # Awesome-Voice-Conversion-Papers-Projects
 Here are some interesting papers in speech field which I collected, may they help you.
+## Update Project
+
+:heavy_check_mark: "**X-E-Speech: Joint Training Framework of Non-Autoregressive Cross-lingual Emotional Text-to-Speech and Voice Conversion**"  [[Paper]](https://openreview.net/pdf?id=J4fL6FDz36) [[Project]](https://github.com/X-E-Speech/X-E-Speech-code))
+
+:heavy_check_mark: -Oh, Hyoung-Seok, et al. "**DurFlex-EVC: Duration-Flexible Emotional Voice Conversion with Parallel Generation.**" arXiv preprint arXiv:2401.08095 (2024). [[Paper]](https://arxiv.org/pdf/2401.08095v1.pdf) [[Project]](https://github.com/hs-oh-prml/durflexevc))
 
 ## Overview
 
@@ -9,11 +14,6 @@ Here are some interesting papers in speech field which I collected, may they hel
 
 - [Interesting papers](#Interesting-papers)
 
-### Update Project
-
-:heavy_check_mark: "**X-E-Speech: Joint Training Framework of Non-Autoregressive Cross-lingual Emotional Text-to-Speech and Voice Conversion**"  [[Paper]](https://openreview.net/pdf?id=J4fL6FDz36) [[Project]](https://github.com/X-E-Speech/X-E-Speech-code))
-
-:heavy_check_mark: -Oh, Hyoung-Seok, et al. "**DurFlex-EVC: Duration-Flexible Emotional Voice Conversion with Parallel Generation.**" arXiv preprint arXiv:2401.08095 (2024). [[Paper]](https://arxiv.org/pdf/2401.08095v1.pdf) [[Project]](https://github.com/hs-oh-prml/durflexevc))
 
 ### Voice Conversion
 
