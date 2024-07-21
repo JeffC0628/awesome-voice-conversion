@@ -4,8 +4,6 @@ Here are some interesting papers in speech field which I collected, may they hel
 
 :heavy_check_mark: Yang, Yang, et al. "**StreamVC: Real-Time Low-Latency Voice Conversion.**" arXiv preprint arXiv:2401.03078 (2024)."  [[Paper]](https://arxiv.org/abs/2401.03078) [[Project]](https://github.com/hrnoh24/stream-vc))
 
-:heavy_check_mark: "**TinyVC**" [[Project]](https://github.com/uthree/tinyvc))
-
 ## Overview
 
 - [Voice Conversion](#Voice-Conversion)
