@@ -2,6 +2,8 @@
 Here are some interesting papers in speech field which I collected, may they help you.
 ## Update Project
 
+:heavy_check_mark: Huang, Jiawei, et al. "**MulliVC: Multi-lingual Voice Conversion With Cycle Consistency.**" arXiv preprint arXiv:2408.04708 (2024). [[Paper]](https://arxiv.org/pdf/2408.04708)
+
 :heavy_check_mark: Yang, Yang, et al. "**StreamVC: Real-Time Low-Latency Voice Conversion.**" arXiv preprint arXiv:2401.03078 (2024)."  [[Paper]](https://arxiv.org/abs/2401.03078) [[unofficial implementation1]](https://github.com/hrnoh24/stream-vc) [[unofficial implementation2]](https://github.com/yuval-reshef/StreamVC)
 
 ## Overview
