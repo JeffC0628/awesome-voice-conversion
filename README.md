@@ -58,6 +58,8 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 
 ###### 3.2.2 Feature Disentangle:
 
+- **SGAN-VC** (*arXiv preprint arXiv:2207.06057 (2022)*)  Subband-based Generative Adversarial Network for Non-parallel Many-to-many Voice Conversion. [[Demo]](https://hechang25.github.io/SGAN-VC/) [[Paper]](https://arxiv.org/pdf/2207.06057.pdf)
+
 - **AUTO-VC** (*arXiv preprint arXiv:1905.05879 (2019)*) author info: Kaizhi Qian, Yang Zhang, Shiyu Chang, Xuesong Yang, Mark Hasegawa-Johnson University of Illinois at UrbanaChampaign, IL, USA , MIT-IBM Watson AI Lab, Cambridge, MA, USA , IBM Research, Cambridge, MA, USA.
 
 - **CDVAE-VC** Unsupervised Representation Disentanglement Using Cross Domain Features and Adversarial Learning in Variational Autoencoder Based Voice Conversion
