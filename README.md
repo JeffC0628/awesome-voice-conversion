@@ -2,6 +2,8 @@
 Here are some interesting papers in speech field which I collected, may they help you.
 ## Update Project
 
+:heavy_check_mark: Biadsy, Fadi, et al. "**Zero-shot Cross-lingual Voice Transfer for TTS.**" arXiv preprint arXiv:2409.13910 (2024). [[Paper]](https://arxiv.org/pdf/2409.13910)
+
 :heavy_check_mark: "**SEED-VC: Zero-shot voice conversion trained according to the scheme described in SEED-TTS.**". [[Project]](https://github.com/Plachtaa/seed-vc)
 
 :heavy_check_mark: Huang, Jiawei, et al. "**MulliVC: Multi-lingual Voice Conversion With Cycle Consistency.**" arXiv preprint arXiv:2408.04708 (2024). [[Paper]](https://arxiv.org/pdf/2408.04708)
