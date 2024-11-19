@@ -6,10 +6,6 @@ Here are some interesting papers in speech field which I collected, may they hel
 
 :heavy_check_mark: "**SEED-VC: Zero-shot voice conversion trained according to the scheme described in SEED-TTS.**". [[Project]](https://github.com/Plachtaa/seed-vc)
 
-:heavy_check_mark: Huang, Jiawei, et al. "**MulliVC: Multi-lingual Voice Conversion With Cycle Consistency.**" arXiv preprint arXiv:2408.04708 (2024). [[Paper]](https://arxiv.org/pdf/2408.04708)
-
-:heavy_check_mark: Yang, Yang, et al. "**StreamVC: Real-Time Low-Latency Voice Conversion.**" arXiv preprint arXiv:2401.03078 (2024)."  [[Paper]](https://arxiv.org/abs/2401.03078) [[unofficial implementation1]](https://github.com/hrnoh24/stream-vc) [[unofficial implementation2]](https://github.com/yuval-reshef/StreamVC)
-
 ## Overview
 
 - [Voice Conversion](#Voice-Conversion)
@@ -119,6 +115,10 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 - **Audio-Style-Transfer** Neural Style Transfer for Audio Spectrograms
 
 ##### 4. Paper & Projects
+
+:heavy_check_mark: Huang, Jiawei, et al. "**MulliVC: Multi-lingual Voice Conversion With Cycle Consistency.**" arXiv preprint arXiv:2408.04708 (2024). [[Paper]](https://arxiv.org/pdf/2408.04708)
+
+:heavy_check_mark: Yang, Yang, et al. "**StreamVC: Real-Time Low-Latency Voice Conversion.**" arXiv preprint arXiv:2401.03078 (2024)."  [[Paper]](https://arxiv.org/abs/2401.03078) [[unofficial implementation1]](https://github.com/hrnoh24/stream-vc) [[unofficial implementation2]](https://github.com/yuval-reshef/StreamVC)
 
 :heavy_check_mark: -Oh, Hyoung-Seok, et al. "**DurFlex-EVC: Duration-Flexible Emotional Voice Conversion with Parallel Generation.**" arXiv preprint arXiv:2401.08095 (2024). [[Paper]](https://arxiv.org/pdf/2401.08095v1.pdf) [[Project]](https://github.com/hs-oh-prml/durflexevc))
 
