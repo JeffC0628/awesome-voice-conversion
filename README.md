@@ -268,6 +268,7 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 
 - **Jukebox: A Generative Model for Music**(2020), Prafulla Dhariwal et al. [[Paper]](https://arxiv.org/pdf/2005.00341)
 
+- [voicetoinstrument.com](https://voicetoinstrument.com) - Convert voice to instrumental tracks using AI
 - **PeriodNet: A non-autoregressive waveform generation model with a structure separating periodic and aperiodic components**(2021), Yukiya Hono et al. [[Paper]](https://arxiv.org/pdf/2102.07786)
 
 
