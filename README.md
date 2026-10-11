@@ -2,7 +2,7 @@
 
 Papers and code for voice conversion and singing voice conversion.
 
-Open [Start here](#start-here) if you want a model you can run. The later sections are the paper index: one row is one work, newest first, and each work is listed once under the closest heading.
+Open [Start here](#start-here) if you want a model you can run. The later sections are the full index, grouped by task and sorted newest first. A paper appears in only one of those sections.
 
 ## Contents
 
