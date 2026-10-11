@@ -1,8 +1,14 @@
 # Awesome Voice Conversion
 
-Papers and code for voice conversion and singing voice conversion.
+A curated list of voice conversion and singing voice conversion papers and code. Entries are sorted by release date, newest first.
 
-Open [Start here](#start-here) if you want a model you can run. The later sections are the full index, grouped by task and sorted newest first. A paper appears in only one of those sections.
+<p align="center">
+  <img src="assets/banner.jpg" alt="Awesome Voice Conversion" width="100%">
+</p>
+
+---
+
+Open [Start here](#start-here) if you want a model you can run. The later sections are the full index, grouped by task. A paper appears in only one of those sections.
 
 ## Contents
 
@@ -26,23 +32,23 @@ Open [Start here](#start-here) if you want a model you can run. The later sectio
 
 Systems below are the ones most people clone first. Task-specific papers are in the sections after this table.
 
-| Year | System | Best for | Paper | Code |
-| --- | --- | --- | --- | --- |
-| 2026 | MeanVC 2 | Streaming zero-shot, low latency | [Paper](https://arxiv.org/pdf/2606.09050) | [Code](https://github.com/ASLP-lab/MeanVC2) |
-| 2026 | X-VC | Streaming zero-shot in codec space | [Paper](https://arxiv.org/pdf/2604.12456) | [Code](https://github.com/Jerrister/X-VC) |
-| 2026 | StyleStream | Real-time timbre, accent, and emotion | [Paper](https://arxiv.org/pdf/2602.20113) | [Code](https://github.com/Berkeley-Speech-Group/StyleStream) |
-| 2026 | Stream-Voice-Anon | Real-time conversion and anonymization | [Paper](https://arxiv.org/pdf/2601.13948) | [Code](https://github.com/Plachtaa/StreamVoiceAnon) |
-| 2025 | YingMusic-SVC | Zero-shot singing on real songs | [Paper](https://arxiv.org/pdf/2512.04793) | [Code](https://github.com/GiantAILab/YingMusic-SVC) |
-| 2025 | Vevo | Controllable timbre and speaking style | [Paper](https://arxiv.org/pdf/2502.07243) | [Code](https://github.com/open-mmlab/Amphion/tree/main/models/vc/vevo) |
-| 2025 | MeanVC | Lightweight streaming zero-shot | [Paper](https://arxiv.org/pdf/2510.08392) | [Code](https://github.com/ASLP-lab/MeanVC) |
-| 2024 | Seed-VC | Zero-shot voice and singing conversion | [Paper](https://arxiv.org/pdf/2411.09943) | [Code](https://github.com/Plachtaa/seed-vc) |
-| 2024 | CosyVoice | Zero-shot cloning and conversion | [Paper](https://arxiv.org/pdf/2407.05407) | [Code](https://github.com/FunAudioLLM/CosyVoice) |
-| 2023 | OpenVoice | Instant voice cloning | [Paper](https://arxiv.org/pdf/2312.01479) | [Code](https://github.com/myshell-ai/OpenVoice) |
-| 2023 | kNN-VC | Any-to-any with nearest neighbors | [Paper](https://arxiv.org/pdf/2305.18975.pdf) | [Code](https://github.com/bshall/knn-vc) |
-| 2022 | FreeVC | Text-free one-shot | [Paper](https://arxiv.org/abs/2210.15418) | [Code](https://github.com/OlaWod/FreeVC) |
-| | RVC | Few-shot conversion from a short clip | | [Code](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) |
-| | GPT-SoVITS | Few-shot conversion and TTS | | [Code](https://github.com/RVC-Boss/GPT-SoVITS) |
-| | so-vits-svc | Singing voice conversion | | [Code](https://github.com/svc-develop-team/so-vits-svc) |
+| System | Zero-shot | Streaming | Singing | Paper | Code |
+| :--- | :---: | :---: | :---: | :--- | :--- |
+| MeanVC 2 | ✅ | ✅ | ❌ | [Paper](https://arxiv.org/pdf/2606.09050) | [Code](https://github.com/ASLP-lab/MeanVC2) |
+| X-VC | ✅ | ✅ | ❌ | [Paper](https://arxiv.org/pdf/2604.12456) | [Code](https://github.com/Jerrister/X-VC) |
+| StyleStream | ✅ | ✅ | ❌ | [Paper](https://arxiv.org/pdf/2602.20113) | [Code](https://github.com/Berkeley-Speech-Group/StyleStream) |
+| Stream-Voice-Anon | ✅ | ✅ | ❌ | [Paper](https://arxiv.org/pdf/2601.13948) | [Code](https://github.com/Plachtaa/StreamVoiceAnon) |
+| YingMusic-SVC | ✅ | ❌ | ✅ | [Paper](https://arxiv.org/pdf/2512.04793) | [Code](https://github.com/GiantAILab/YingMusic-SVC) |
+| Vevo | ✅ | ❌ | ❌ | [Paper](https://arxiv.org/pdf/2502.07243) | [Code](https://github.com/open-mmlab/Amphion/tree/main/models/vc/vevo) |
+| MeanVC | ✅ | ✅ | ❌ | [Paper](https://arxiv.org/pdf/2510.08392) | [Code](https://github.com/ASLP-lab/MeanVC) |
+| Seed-VC | ✅ | ✅ | ✅ | [Paper](https://arxiv.org/pdf/2411.09943) | [Code](https://github.com/Plachtaa/seed-vc) |
+| CosyVoice | ✅ | ✅ | ❌ | [Paper](https://arxiv.org/pdf/2407.05407) | [Code](https://github.com/FunAudioLLM/CosyVoice) |
+| OpenVoice | ✅ | ❌ | ❌ | [Paper](https://arxiv.org/pdf/2312.01479) | [Code](https://github.com/myshell-ai/OpenVoice) |
+| kNN-VC | ✅ | ❌ | ❌ | [Paper](https://arxiv.org/pdf/2305.18975.pdf) | [Code](https://github.com/bshall/knn-vc) |
+| FreeVC | ✅ | ❌ | ❌ | [Paper](https://arxiv.org/abs/2210.15418) | [Code](https://github.com/OlaWod/FreeVC) |
+| RVC | ❌ | ✅ | ✅ | | [Code](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) |
+| GPT-SoVITS | ✅ | ❌ | ❌ | | [Code](https://github.com/RVC-Boss/GPT-SoVITS) |
+| so-vits-svc | ❌ | ❌ | ✅ | | [Code](https://github.com/svc-develop-team/so-vits-svc) |
 
 ## Voice conversion
 
