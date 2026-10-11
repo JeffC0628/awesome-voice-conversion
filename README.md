@@ -1,349 +1,244 @@
-# Awesome-Voice-Conversion-Papers-Projects
-Here are some interesting papers in speech field which I collected, may they help you.
-## Update Project
-
-:heavy_check_mark: Ma, Guobin, et al. "MeanVC 2: Robust Low-Latency Streaming Zero-Shot Voice Conversion." arXiv preprint arXiv:2606.09050 (2026).[[Paper]](https://arxiv.org/pdf/2606.09050) [[Project]](https://github.com/ASLP-lab/MeanVC2)
-
-:heavy_check_mark: Zheng, Qixi, et al. "X-VC: Zero-shot Streaming Voice Conversion in Codec Space." arXiv preprint arXiv:2604.12456 (2026).[[Paper]](https://arxiv.org/pdf/2604.12456) [[Project]](https://github.com/Jerrister/X-VC)
-
-## Overview
-
-- [Voice Conversion](#Voice-Conversion)
-
-- [Singing Voice Conversion](#Singing-Voice-Conversion)
-
-- [Interesting papers](#Interesting-papers)
-
-
-### Voice Conversion
-
-#### 1. Challenge
-
-Voice Conversion Challenge（VCC）[[Home]](https://link.zhihu.com/?target=http%3A//www.vc-challenge.org/)
-
-ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeech.com/2020/news.html)
-
-#### 2. Dataset
-
-[[VCTK]](https://datashare.is.ed.ac.uk/handle/10283/3443)
-
-[[ZeroSpeech 2020]](https://link.zhihu.com/?target=https%3A//download.zerospeech.com/) 
-
-[[VCC2016]](https://link.zhihu.com/?target=https%3A//datashare.is.ed.ac.uk/handle/10283/2211) The Voice Conversion Challenge 2016
-
-[[VCC2018]](https://link.zhihu.com/?target=https%3A//datashare.is.ed.ac.uk/handle/10283/3061) The Voice Conversion Challenge 2018
-
-
-#### 3. Method
-
-##### 3.1 Parallel VC
-[VCC 2018 Baseline](https://link.zhihu.com/?target=https%3A//github.com/k2kobayashi/sprocket)
-
-
-##### 3.2 Non-parallel VC
-
-###### 3.2.1 Direct Conversion：
-
-- **CycleGAN-VC**  (*arXiv:1711.11293, Nov. 2017 (EUSIPCO, 2018)*) author info: Takuhiro Kaneko Hirokazu Kameoka NTT Communication Science Laboratories, NTT Corporation
-
-- **CycleGAN-VC2**  (*arXiv:1904.04631, Apr. 2019 ICASSP 2019*) author info: Takuhiro Kaneko Hirokazu Kameoka Kou Tanaka Nobukatsu HojoNTT Communication Science Laboratories, NTT Corporation
-
-- **StarGAN-VC** (*arXiv:1806.02169, June 2018 (SLT, 2018)*) author info: Hirokazu Kameoka, Takuhiro Kaneko, Kou Tanaka, Nobukatsu HojoNTT Communication Science Laboratories, NTT Corporation
-
-- **VAW-GAN-VC** (*arXiv:1704.00849, 4 Apr 2017. Interspeech, 2017*) author info: Chin-Cheng Hsu , Hsin-Te Hwang , Yi-Chiao Wu , Yu Tsao, and Hsin-Min Wang Institute of Information Science, Academia Sinica, Taiwan ，Research Center for Information Technology Innovation, Academia Sinica, Taiwan
-
-- **StarGAN-VC2** (*arXiv:1907.12279, July 2019 Interspeech 2019*) author info: Takuhiro Kaneko Hirokazu Kameoka Kou Tanaka Nobukatsu HojoNTT Communication Science Laboratories, NTT Corporation
-
-- **Contrastive Voice Conversion** (CVC) non-parallel voice conversion based on patch-wise contrastive learning and adversarial learning
-
-###### 3.2.2 Feature Disentangle:
-
-- **SGAN-VC** (*arXiv preprint arXiv:2207.06057 (2022)*)  Subband-based Generative Adversarial Network for Non-parallel Many-to-many Voice Conversion. [[Demo]](https://hechang25.github.io/SGAN-VC/) [[Paper]](https://arxiv.org/pdf/2207.06057.pdf)
-
-- **AUTO-VC** (*arXiv preprint arXiv:1905.05879 (2019)*) author info: Kaizhi Qian, Yang Zhang, Shiyu Chang, Xuesong Yang, Mark Hasegawa-Johnson University of Illinois at UrbanaChampaign, IL, USA , MIT-IBM Watson AI Lab, Cambridge, MA, USA , IBM Research, Cambridge, MA, USA.
-
-- **CDVAE-VC** Unsupervised Representation Disentanglement Using Cross Domain Features and Adversarial Learning in Variational Autoencoder Based Voice Conversion
-
-- **ACVAE-VC** (*arXiv:1808.05092, Aug. 2018. (IEEE/ACM Transactions on Audio, Speech, and Language Processing, May 2019)*) author info: Hirokazu Kameoka, Takuhiro Kaneko, Kou Tanaka, Nobukatsu HojoNTT Communication Science Laboratories, NTT Corporation
-
-- **SpeechSplit** (*arXiv preprint arXiv:2004.11284 (2020)*) author info: Kaizhi Qian, Yang Zhang, Shiyu Chang, David Cox, Mark Hasegawa-Johnson MIT-IBM Watson AI Lab, USA University of Illinois at Urbana-Champaign, USA.
-
-- **AGAIN-VC** AGAIN-VC: A One-shot Voice Conversion using Activation Guidance and Adaptive Instance Normalization (2020)
-
-- **Crank** Non-parallel voice conversion based on vector-quantized variational autoencoder with adversarial learning author info：Kazuhiro Kobayashi Wen-Chin Huang Tomoki Toda
-
-- **VQ-VAE-Speech** VQ-VAE + WaveNet by [*Chorowski et al., 2019*] and VQ-VAE on speech signals by [*van den Oord et al., 2017*].
-
-- **VQ-VAE** for Acoustic Unit Discovery and Voice Conversion Train and evaluate the VQ-VAE model for the ZeroSpeech 2020 challenge.
-
-- **RandomCNN-voice-transfer** Maybe the fastest voice style transfer with reasonable result
-
-- **FragmentVC** (arXiv preprint arXiv:2010.14150(2020)). author info: Yist Y. Lin, Chung-Ming Chien, Jheng-Hao Lin, Hung-yi Lee, Lin-shan Lee, National Taiwan University College of Electrical Engineering and Computer Science
-
-- **HVQ-VAE** Cross-lingual Voice Conversion using Hierarchical Vector-Quantized Variational Autoencoder author info: Tuan Vu Ho and Masato Akagi Japan Advanced Institute of Science and Technology （VCC2020）
-
-- **CycleVAE** Provides a Cyclic Variational AutoEncoder (CycleVAE)-based voice conversion (VC) system with parallel WaveGAN (PWG)-based vocoder for Voice Conversion Challenge 2020 (VCC2020)
-
-- Voice Conversion on unaligned data compare standard VAE, VQ-VAE and Gumbel VAE models as approaches to VC on the Voice Conversion Challenge 2016 dataset.
-
-- **ZeroSpeech 2019:** TTS without T - Pytorch "Unsupervised End-to-End Learning of Discrete Linguistic Units for Voice Conversion", Interspeech 2019. 2nd place in terms of low bitrate, higher Mean Opinion Score (MOS) and lower CER than the 1st place team
-
-- **Cascade ASR + TTS** Recipe for Voice Conversion Challenge 2020 baseline: Cascade ASR + TTS author info: Wen-Chin Huang @ Nagoya University Tomoki Hayashi Shinji Watanabe (JHU), Tomoki Toda (Nagoya U)
-
-- **MelGAN-VC** MelGAN-VC: Voice Conversion and Audio Style Transfer on arbitrarily long samples using Spectrograms
-
-- **Cotatron** Cotatron: Transcription-Guided Speech Encoder for Any-to-Many Voice Conversion without Parallel Data author info: Seung-won Park , Doo-young Kim, Myun-chul Joe2 1Seoul National University 2MINDsLab Inc.
-
-- Voice Conversion with Non-Parallel Data Phonetic posteriorgrams for many-to-one voice conversion without parallel data training (PPGs based)
-
-- Voice-Conversion Multi-target voice conversion without parallel data by adversarially learning disentangled audio representations.(2018)
-
-- Voice Conversion Compare with Standard VAE, VQ-VAE and Gumbel VAE models, JointVAE approaches on the VCC 2016 dataset.
-
-- **Wavenet_AutoEncoders**(ZeroSpeech 2020 challenge)WaveNet autoencoder + Instance Normalization (IN-WAE) WaveNet autoencoder + Sliced Vector Quantization (SVQ-WAE)
-
-- Adversarial Voice Conversion Voice conversion using deep adversarial learning, based on WaveNet autoencoders. multiple decoders are used so that each one corresponds to a particular voice. adversarial domain adaptation technique is employed (2019)
-
-- **Adversarial-Many-to-Many-VC** Improving the Speaker Identity of Non-Parallel Many-to-Many Voice Conversion with Adversarial Speaker Recognition(PPG2speech synthesizer with adversarial speaker classifier)
-
-- **TransferLearning-CLVC** "Transfer Learning from Monolingual ASR to Transcription-free Cross-lingual Voice Conversion." author info: Che-Jui Chang Red Pill Lab（PPGs + Waveglow vocoder）
-
-- **Non-parallel Seq2seq Voice Conversion** Non-Parallel Sequence-to-Sequence Voice Conversion with Disentangled Linguistic and Speaker Representations (2019)(PPGs based end2end train)
-
-- **EA-SVC** Phonetic Posteriorgrams based Many-to-Many Singing Voice Conversion via Adversarial Training(PPG based SVC)
-
-- **Audio-Style-Transfer** Neural Style Transfer for Audio Spectrograms
-
-##### 4. Paper & Projects
-
-:heavy_check_mark: Ma, Guobin, et al. "MeanVC 2: Robust Low-Latency Streaming Zero-Shot Voice Conversion." arXiv preprint arXiv:2606.09050 (2026).[[Paper]](https://arxiv.org/pdf/2606.09050) [[Project]](https://github.com/ASLP-lab/MeanVC2)
-
-:heavy_check_mark: Zheng, Qixi, et al. "X-VC: Zero-shot Streaming Voice Conversion in Codec Space." arXiv preprint arXiv:2604.12456 (2026).[[Paper]](https://arxiv.org/pdf/2604.12456) [[Project]](https://github.com/Jerrister/X-VC)
-
-:heavy_check_mark: Liu, Yisi, et al. "StyleStream: Real-Time Zero-Shot Voice Style Conversion." arXiv preprint arXiv:2602.20113 (2026).[[Paper]](https://arxiv.org/pdf/2602.20113) [[Project]](https://github.com/Berkeley-Speech-Group/StyleStream)
-
-:heavy_check_mark: Kuzmin, Nikita, et al. "Stream-Voice-Anon: Enhancing Utility of Real-Time Speaker Anonymization via Neural Audio Codec and Language Models." arXiv preprint arXiv:2601.13948 (2026).[[Paper]](https://arxiv.org/pdf/2601.13948) [[Project]](https://github.com/Plachtaa/StreamVoiceAnon)
-
-:heavy_check_mark: Cai, Zexin, et al. "GenVC: Self-Supervised Zero-Shot Voice Conversion." arXiv preprint arXiv:2502.04519 (2025).[[Paper]](https://arxiv.org/pdf/2502.04519) [[Project]](https://github.com/caizexin/GenVC)
-
-:heavy_check_mark: Zhang, Xueyao, et al. "Vevo: Controllable Zero-Shot Voice Imitation with Self-Supervised Disentanglement." arXiv preprint arXiv:2502.07243 (2025).[[Paper]](https://arxiv.org/pdf/2502.07243) [[Project]](https://github.com/open-mmlab/Amphion/tree/main/models/vc/vevo)
-
-:heavy_check_mark: Kim, Jaehun, et al. "AdaptVC: High Quality Voice Conversion with Adaptive Learning." arXiv preprint arXiv:2501.01347 (2025).[[Paper]](https://arxiv.org/pdf/2501.01347) [[Project]](https://github.com/kaistmm/AdaptVC)
-
-:heavy_check_mark: Liu, Songting. "Zero-shot Voice Conversion with Diffusion Transformers." arXiv preprint arXiv:2411.09943 (2024).[[Paper]](https://arxiv.org/pdf/2411.09943) [[Project]](https://github.com/Plachtaa/seed-vc)
-
-:heavy_check_mark: Du, Zhihao, et al. "CosyVoice: A Scalable Multilingual Zero-shot Text-to-speech Synthesizer based on Supervised Semantic Tokens." arXiv preprint arXiv:2407.05407 (2024).[[Paper]](https://arxiv.org/pdf/2407.05407) [[Project]](https://github.com/FunAudioLLM/CosyVoice)
-
-:heavy_check_mark: Qin, Zengyi, et al. "OpenVoice: Versatile Instant Voice Cloning." arXiv preprint arXiv:2312.01479 (2023).[[Paper]](https://arxiv.org/pdf/2312.01479) [[Project]](https://github.com/myshell-ai/OpenVoice)
-
-:heavy_check_mark: Choi, Ha-Yeong, et al. "DDDM-VC: Decoupled Denoising Diffusion Models with Disentangled Representation and Prior Mixup for Verified Robust Voice Conversion." arXiv preprint arXiv:2305.15816 (2023).[[Paper]](https://arxiv.org/pdf/2305.15816) [[Project]](https://github.com/hayeong0/DDDM-VC)
-
-:heavy_check_mark: Biadsy, Fadi, et al. "**Zero-shot Cross-lingual Voice Transfer for TTS.**" arXiv preprint arXiv:2409.13910 (2024). [[Paper]](https://arxiv.org/pdf/2409.13910)
-
-:heavy_check_mark: - RVC. **Retrieval-based Voice Conversion WebUI.**[[Project]](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)
-
-:heavy_check_mark: - so-vits-svc. **SoftVC VITS Singing Voice Conversion.**[[Project]](https://github.com/svc-develop-team/so-vits-svc)
-
-:heavy_check_mark: - GPT-SoVITS. **Few-shot Voice Conversion and Text-to-Speech WebUI.**[[Project]](https://github.com/RVC-Boss/GPT-SoVITS)
-
-:heavy_check_mark: Ma, Guobin, et al. "MeanVC: Lightweight and Streaming Zero-Shot Voice Conversion via Mean Flows." arXiv preprint arXiv:2510.08392 (2025).[[Paper]](https://arxiv.org/pdf/2510.08392) [[Project]](https://github.com/ASLP-lab/MeanVC)
-
-:heavy_check_mark: Huang, Jiawei, et al. "**MulliVC: Multi-lingual Voice Conversion With Cycle Consistency.**" arXiv preprint arXiv:2408.04708 (2024). [[Paper]](https://arxiv.org/pdf/2408.04708)
-
-:heavy_check_mark: Yang, Yang, et al. "**StreamVC: Real-Time Low-Latency Voice Conversion.**" arXiv preprint arXiv:2401.03078 (2024)."  [[Paper]](https://arxiv.org/abs/2401.03078) [[unofficial implementation1]](https://github.com/hrnoh24/stream-vc) [[unofficial implementation2]](https://github.com/yuval-reshef/StreamVC)
-
-:heavy_check_mark: -Oh, Hyoung-Seok, et al. "**DurFlex-EVC: Duration-Flexible Emotional Voice Conversion with Parallel Generation.**" arXiv preprint arXiv:2401.08095 (2024). [[Paper]](https://arxiv.org/pdf/2401.08095v1.pdf) [[Project]](https://github.com/hs-oh-prml/durflexevc))
-
-:heavy_check_mark: -Choi, Ha-Yeong, Sang-Hoon Lee, and Seong-Whan Lee. "**Diff-HierVC: Diffusion-based Hierarchical Voice Conversion with Robust Pitch Generation and Masked Prior for Zero-shot Speaker Adaptation.**" arXiv preprint arXiv:2311.04693 (2023). [[Paper]](https://arxiv.org/abs/2311.04693) [[Project]](https://github.com/hayeong0/Diff-HierVC))
-
-:heavy_check_mark: -Sadov, Konstantine, Matthew Hutter, and Asara Near. "**Low-latency Real-time Voice Conversion on CPU.**" arXiv preprint arXiv:2311.00873 (2023). [[Paper]](https://koe.ai/papers/llvc.pdf) [[Project]](https://github.com/KoeAI/LLVC))
-
-:heavy_check_mark: -Shan, Siyuan, et al. "**Phoneme Hallucinator: One-shot Voice Conversion via Set Expansion.**" arXiv preprint arXiv:2308.06382 (2023). [[Paper]](https://arxiv.org/abs/2308.06382) [[Project]](https://github.com/PhonemeHallucinator/Phoneme_Hallucinator))
-
-:heavy_check_mark: -Kang, Wonjune, Mark Hasegawa-Johnson, and Deb Roy. "**End-to-End Zero-Shot Voice Conversion with Location-Variable Convolutions.**" arXiv preprint arXiv:2205.09784 (2022). [[Paper]](https://arxiv.org/abs/2205.09784) [[Project]](https://github.com/wonjune-kang/lvc-vc))
-
-:heavy_check_mark: -Baas, Matthew, Benjamin van Niekerk, and Herman Kamper. "**Voice Conversion With Just Nearest Neighbors.**" arXiv preprint arXiv:2305.18975 (2023). [[Paper]](https://arxiv.org/pdf/2305.18975.pdf) [[Project]](https://github.com/bshall/knn-vc))
-
-:heavy_check_mark: -Li, Yinghao Aaron, Cong Han, and Nima Mesgarani. "**Styletts-vc: One-shot voice conversion by knowledge transfer from style-based tts models.**" 2022 IEEE Spoken Language Technology Workshop (SLT). IEEE, 2023. [[Paper]](https://arxiv.org/abs/2212.14227) [[Project]](https://github.com/yl4579/StyleTTS-VC)
-
-:heavy_check_mark: - Lu, Hui, et al. "**Disentangled Speech Representation Learning for One-Shot Cross-Lingual Voice Conversion Using ß-VAE.**" 2022 IEEE Spoken Language Technology Workshop (SLT). IEEE, 2023. [[Paper]](https://www1.se.cuhk.edu.hk/~hccl/publications/pub/2023%20SLT2022-Beta_VAE_based_one_shot_cross_lingual_VC.pdf) [[Project]](https://github.com/light1726/BetaVAE_VC)
-
-:heavy_check_mark: - Park, Hyun Joon, et al. "**TriAAN-VC: Triple Adaptive Attention Normalization for Any-to-Any Voice Conversion.**" [[Paper]](https://arxiv.org/abs/2303.09057) [[Project]](https://github.com/winddori2002/TriAAN-VC)
-
-:heavy_check_mark: - Li, Jingyi, Weiping Tu, and Li Xiao. "**FreeVC: Towards High-Quality Text-Free One-Shot Voice Conversion.**"[[Paper]](https://arxiv.org/abs/2210.15418) [[Project]](https://github.com/OlaWod/FreeVC)
-
-:heavy_check_mark: - Kashkin, Anton, Ivan Karpukhin, and Svyatoslav Shishkin. "**HiFi-VC: High Quality ASR-Based Voice Conversion.**" arXiv preprint arXiv:2203.16937 (2022)..[[Paper]](https://arxiv.org/abs/2203.16937) [[Project]](https://github.com/tinkoff-ai/hifi_vc)
-
-:heavy_check_mark: - Yuan, Ruibin, et al. "**DeID-VC: Speaker De-identification via Zero-shot Pseudo Voice Conversion.**" arXiv preprint arXiv:2209.04530 (2022).[[Paper]](https://arxiv.org/abs/2209.04530) [[Project]](https://github.com/a43992899/DeID-VC)
-
-:heavy_check_mark: - Popov, Vadim, et al. "**Diffusion-based voice conversion with fast maximum likelihood sampling scheme.**" arXiv preprint arXiv:2109.13821 (2021). [[Paper]](https://arxiv.org/pdf/2109.13821.pdf) [[Project]](https://github.com/huawei-noah/Speech-Backbones/tree/main/DiffVC)
-
-:heavy_check_mark: - Nguyen, Bac, and Fabien Cardinaux. "**Nvc-net: End-to-end adversarial voice conversion.**" ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2022. [[Paper]](https://arxiv.org/abs/2106.00992) [[Project]](https://github.com/sony/ai-research-code/tree/master/nvcnet)
-
-:heavy_check_mark: - Zhao, Xintao, et al. "**Disentangling Content and Fine-Grained Prosody Information Via Hybrid ASR Bottleneck Features for Voice Conversion.**" ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2022.. [[Paper]](https://arxiv.org/pdf/2203.12813.pdf) [[Project]](https://thuhcsi.github.io/icassp2022-hybrid-bottleneck-vc/)
-
-:heavy_check_mark: - Liu, Songxiang, et al. "**Any-to-many voice conversion with location-relative sequence-to-sequence modeling.**" IEEE/ACM Transactions on Audio, Speech, and Language Processing 29 (2021): 1717-1728.. [[Paper]](https://arxiv.org/abs/2009.02725v3) [[Project]](https://github.com/liusongxiang/ppg-vc)
-
-:heavy_check_mark: - Neekhara, Paarth, et al. "**Expressive Neural Voice Cloning.**" *arXiv preprint arXiv:2102.00151(2021)*.[[Paper]](https://www.arxiv-vanity.com/papers/2102.00151/)
-
-:heavy_check_mark: - Cifka, Ondrej, et al. "**Self-Supervised VQ-VAE For One-Shot Music Style Transfer.**" *arXiv preprint arXiv:2102.05749(2021)*.[[Paper]](https://arxiv.org/abs/2102.05749) [[Project]](https://github.com/cifkao/ss-vq-vae)
-
-:heavy_check_mark: - Zhao, Shengkui, et al. "**Towards Natural and Controllable Cross-Lingual Voice Conversion Based on Neural TTS Model and Phonetic Posteriorgram.**"*arXiv preprint arXiv:2102.01991(2021)*.[[Paper]](https://www.arxiv-vanity.com/papers/2102.01991/)
-
-:heavy_check_mark: - H. Kameoka, T. Kaneko, K. Tanaka, and N. Hojo. "**StarGAN-VC: Non-parallel Many-to-Many Voice Conversion with Star Generative Adversarial Networks.**" *arXiv:1806.02169, June 2018* (SLT, 2018). [[Paper]](https://arxiv.org/abs/1806.02169) [[Project]](https://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/stargan-vc/)
-
-:heavy_check_mark: - J. Lorenzo-Trueba, J. Yamagishi, T. Toda, D. Saito, F. Villavicencio, T. Kinnunen, and Z. Ling. "**The Voice Conversion Challenge 2018: Promoting Development of Parallel and Nonparallel Methods.**" *Speaker Odyssey, 2018*. [[Paper]](https://arxiv.org/abs/1804.04262) [[Dataset]](https://datashare.ed.ac.uk/handle/10283/3061)
-
-:heavy_check_mark: - K. Kobayashi and T. Toda. "**sprocket: Open-Source Voice Conversion Software.**" *Speaker Odyssey, 2018.* [[Paper]](https://nuss.nagoya-u.ac.jp/s/h8YKnq6qxjjxtU3#pdfviewer) [[Project]](https://github.com/k2kobayashi/sprocket) [[Samples (zip)]](https://nuss.nagoya-u.ac.jp/login)
-
-:heavy_check_mark: - T. Kaneko and H. Kameoka. "**Parallel-Data-Free Voice Conversion Using Cycle-Consistent Adversarial Networks.**" *arXiv:1711.11293, Nov. 2017 (EUSIPCO, 2018)*. [[Paper]](https://arxiv.org/abs/1711.11293) [[Project]](http://www.kecl.ntt.co.jp/people/kaneko.takuhiro/projects/cyclegan-vc/index.html)
-
-:heavy_check_mark: - T. Kaneko, H. Kameoka, K. Tanaka, and N. Hojo. "**CycleGAN-VC2: Improved CycleGAN-based Non-parallel Voice Conversion.**" *ICASSP, 2019*. [[Paper]](https://arxiv.org/abs/1904.04631) [[Project]](http://www.kecl.ntt.co.jp/people/kaneko.takuhiro/projects/cyclegan-vc2/index.html) [[github]](https://github.com/jackaduma/CycleGAN-VC2)
-
-:heavy_check_mark: - H. Kameoka, T. Kaneko, K. Tanaka, and N. Hojo. "**ACVAE-VC: Non-parallel Many-to-Many Voice Conversion with Auxiliary Classifier Variational Autoencoder.**" *arXiv:1808.05092, Aug. 2018. (IEEE/ACM Transactions on Audio, Speech, and Language Processing, May 2019)*. [[Paper]](https://arxiv.org/abs/1808.05092) [[Project]](http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/acvae-vc/)
-
-:heavy_check_mark: - C. Hsu, H.-T. Hwang, Y.-C. Wu, Y. Tsao, and H.-M. Wang. "**Voice Conversion from Unaligned Corpora using Variational Autoencoding Wasserstein Generative Adversarial Networks.**" *Interspeech, 2017*. [[Paper]](https://arxiv.org/abs/1704.00849) [[Project]](https://jeremycchsu.github.io/vc-vawgan/)
-
-:heavy_check_mark: - Kaneko, Takuhiro, et al. "**StarGAN-VC2: Rethinking conditional methods for StarGAN-based voice conversion.**" *arXiv preprint arXiv:1907.12279 (2019)*. [[Paper]](https://arxiv.org/abs/1907.12279) [[Project]](http://www.kecl.ntt.co.jp/people/kaneko.takuhiro/projects/stargan-vc2/index.html)
-
-:heavy_check_mark: - Qian, Kaizhi, et al. "**Autovc: Zero-shot voice style transfer with only autoencoder loss.**" *arXiv preprint arXiv:1905.05879 (2019)*.[[Paper]](https://arxiv.org/pdf/1905.05879.pdf) [[Project]](https://github.com/auspicious3000/autovc)
-
-:heavy_check_mark: - Qian, Kaizhi, et al. "**Unsupervised speech decomposition via triple information bottleneck.**" *arXiv preprint arXiv:2004.11284 (2020)*. [[Paper]](https://arxiv.org/abs/2004.11284) [[Project]](https://auspicious3000.github.io/SpeechSplit-Demo/)
-
-:heavy_check_mark: - T. Toda, A. W Black, and K. Tokuda. "**Voice Conversion Based on Maximum Likelihood Estimation of Spectral Parameter Trajectory.**" *IEEE Trans. Audio Speech Lang. Process., 2007*. [[Paper]](https://ieeexplore.ieee.org/document/4317579?reload=true)
-
-:heavy_check_mark: - Gatys, Leon A., Alexander S. Ecker, and Matthias Bethge. "**A neural algorithm of artistic style.**"*arXiv preprint arXiv:1508.06576(2015)*.[[Paper]](https://arxiv.org/abs/1508.06576)[[Project]](https://github.com/mazzzystar/randomCNN-voice-transfer)
-
-:heavy_check_mark: - K. Kobayashi, T. Toda, and S. Nakamura. "**F0 Transformation Techniques for Statistical Voice Conversion with Direct Waveform Modification with Spectral Differential.**" *SLT, 2016*. [[Paper]](https://ieeexplore.ieee.org/document/7846338) [[Project]](https://github.com/k2kobayashi/sprocket)
-
-:heavy_check_mark: - M. Morise, F. Yokomori, and K. Ozawa. "**WORLD: A Vocoder-Based High-Quality Speech Synthesis System for Real-Time Applications.**" *IEICE Trans. Inf. Syst., 2016*. [[Paper]](https://www.jstage.jst.go.jp/article/transinf/E99.D/7/E99.D_2015EDP7457/_article) [[Project]](http://www.kki.yamanashi.ac.jp/~mmorise/world/english/index.html)
-
-:heavy_check_mark: - Wu, Da-Yi, and Yi-Hsuan Yang. "**Speech-to-Singing Conversion based on Boundary Equilibrium GAN.**"*arXiv preprint arXiv:2005.13835(2020)*.[[Paper]](https://arxiv.org/pdf/2005.13835.pdf) [[Project]](https://github.com/ericwudayi/speech2singing)
-
-:heavy_check_mark: - Sisman, Berrak, et al. "**An Overview of Voice Conversion and its Challenges: From Statistical Modeling to Deep Learning.**"*arXiv preprint arXiv:2008.03648(2020)*.[[Paper]](https://arxiv.org/pdf/2008.03648.pdf)
-
-:heavy_check_mark: - Peng, Yu-Huai, et al. "**The Academia Sinica Systems of Voice Conversion for VCC2020.**"*arXiv preprint arXiv:2010.02669(2020)*.[[Paper]](https://arxiv.org/abs/2010.02669)
-
-:heavy_check_mark: - Huang, Wen-Chin, et al. "**The Sequence-to-Sequence Baseline for the Voice Conversion Challenge 2020: Cascading ASR and TTS.**"*arXiv preprint arXiv:2010.02434(2020)*.[[Paper]](https://arxiv.org/abs/2010.02434) [[Project]](https://github.com/espnet/espnet)
-
-:heavy_check_mark: - Zhang, Mingyang, et al. "**Transfer Learning from Speech Synthesis to Voice Conversion with Non-Parallel Training Data.**"*arXiv preprint arXiv:2009.14399(2020)*.[[Paper]](https://arxiv.org/abs/2009.14399)
-
-:heavy_check_mark: - Wen-Chin Huang,et al."**The NU Voice Conversion System for the Voice Conversion Challenge 2020: On the Effectiveness of Sequence-to-sequence Models and Autoregressive Neural Vocoders.**"*arXiv preprint arXiv:2010.04446(2020)*.[[Paper]](https://arxiv.org/abs/2010.04446)
-
-:heavy_check_mark: - Oriol Barbany Mayor, Milos Cernak. "**FastVC: Fast Voice Conversion with non-parallel data.**" *arXiv preprint arXiv:2010.04185 (2020)*.[[Paper]](https://arxiv.org/abs/2010.04185)
-
-:heavy_check_mark: - Patrick Lumban Tobing,Yi-Chiao Wu,Tomoki Toda. "**Baseline System of Voice Conversion Challenge 2020 with Cyclic Variational Autoencoder and Parallel WaveGAN.**"*arXiv preprint arXiv:2010.04429(2020)*[[Paper]](https://arxiv.org/abs/2010.04429)
-
-:heavy_check_mark: - Kazuhiro Kobayashi Wen-Chin Huang Tomoki Toda . "**Non-parallel voice conversion based on vector-quantized variational autoencoder with adversarial learning**"
-
-:heavy_check_mark: - Yamamoto, Ryuichi, Eunwoo Song, and Jae-Min Kim. "**Parallel WaveGAN: A fast waveform generation model based on generative adversarial networks with multi-resolution spectrogram.**"*ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2020*. [[Paper]](https://arxiv.org/pdf/1910.11480.pdf)
-
-:heavy_check_mark: - K. Kobayashi, T. Toda, "**sprocket: Open-Source Voice Conversion Software.**" *Proc. Odyssey, pp. 203-210, June 2018*.[[Paper]](https://nuss.nagoya-u.ac.jp/s/h8YKnq6qxjjxtU3)
-
-:heavy_check_mark: - Yukarin. **Realtime Yukarin: an application for real-time voice conversion.**[[Project]](https://github.com/Hiroshiba/realtime-yukarin)
-
-:heavy_check_mark: - VQ-VAE for Acoustic Unit Discovery and Voice Conversion.[[Project]](https://github.com/bshall/ZeroSpeech)
-
-:heavy_check_mark: - autovc-implement: [[f0-autovc]](https://github.com/hrnoh/f0-autovc), [[AutoVC.pytorch]](https://github.com/peisuke/AutoVC.pytorch), [[autovc_v2]](https://github.com/casperwang/autovc_v2), [[AutoVC-WavRNN]](https://github.com/freenowill/AutoVC-WavRNN), [[AutoVC]](https://github.com/CODEJIN/AutoVC)
-
-:heavy_check_mark: - Lin, Yist Y., et al. "**FragmentVC: Any-to-Any Voice Conversion by End-to-End Extracting and Fusing Fine-Grained Voice Fragments With Attention.**"*arXiv preprint arXiv:2010.14150(2020)*. [[Paper]](https://arxiv.org/abs/2010.14150) [[Project]](https://github.com/yistLin/FragmentVC)
-
-:heavy_check_mark: - Sun, Lifa, et al. "**Phonetic posteriorgrams for many-to-one voice conversion without parallel data training.**"*2016 IEEE International Conference on Multimedia and Expo (ICME). IEEE, 2016*.[[Paper]](https://ieeexplore.ieee.org/document/7552917) [[Project]](https://github.com/andabi/deep-voice-conversion)
-
-:heavy_check_mark: - Huang, Wen-Chin, et al. "**Unsupervised Representation Disentanglement Using Cross Domain Features and Adversarial Learning in Variational Autoencoder Based Voice Conversion.**"*IEEE Transactions on Emerging Topics in Computational Intelligence(2020)*. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9057379) [[Project]](https://github.com/unilight/cdvae-vc)
-
-:heavy_check_mark: - Chou, Ju-chieh, et al. "**Multi-target voice conversion without parallel data by adversarially learning disentangled audio representations.**"*arXiv preprint arXiv:1804.02812(2018)*.[[Paper]](https://arxiv.org/pdf/1804.02812.pdf) [[Project]](https://github.com/BogiHsu/Voice-Conversion)
-
-:heavy_check_mark: - Grinstein, Eric, et al. "**Audio style transfer.**"*2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2018*.[[Paper]](https://hal.archives-ouvertes.fr/hal-01626389/document) [[Project]](https://github.com/inzva/Audio-Style-Transfer) [[HomePage]](https://egrinstein.github.io/2017/10/25/ast.html)
-
-:heavy_check_mark: - Li, Tingle, et al. "**CVC: Contrastive Learning for Non-parallel Voice Conversion.**"*arXiv preprint arXiv:2011.00782(2020)*.[[Paper]](https://arxiv.org/abs/2011.00782) [[Project]](https://github.com/Tinglok/CVC)
-
-:heavy_check_mark: - Huang, Wen-Chin, et al. "**Any-to-One Sequence-to-Sequence Voice Conversion using Self-Supervised Discrete Speech Representations.**"*arXiv preprint arXiv:2010.12231(2020)*.[[Paper]](https://arxiv.org/pdf/2010.12231.pdf)
-
-:heavy_check_mark: - Li, Zhonghao, et al. "**PPG-based singing voice conversion with adversarial representation learning.**"*arXiv preprint arXiv:2010.14804(2020)*.[[Paper]](https://arxiv.org/pdf/2010.14804.pdf)
-
-:heavy_check_mark: - Zhang, Jing-Xuan, Zhen-Hua Ling, and Li-Rong Dai. "**Non-parallel sequence-to-sequence voice conversion with disentangled linguistic and speaker representations.**"*IEEE/ACM Transactions on Audio, Speech, and Language Processing28 (2019): 540-552*.[[Paper]](https://arxiv.org/pdf/1906.10508.pdf) [[Project]](https://github.com/jxzhanggg/nonparaSeq2seqVC_code)
-
-:heavy_check_mark: - Ding, Shaojin, Guanlong Zhao, and Ricardo Gutierrez-Osuna. "**Improving the Speaker Identity of Non-Parallel Many-to-Many Voice Conversion with Adversarial Speaker Recognition.**"*Proc. Interspeech 2020(2020): 776-780*.[[Paper]](http://www.interspeech2020.org/uploadfile/pdf/Mon-2-7-2.pdf) [[Project]](https://github.com/shaojinding/Adversarial-Many-to-Many-VC)
-
-:heavy_check_mark: - Chang, Che-Jui. "**Transfer Learning from Monolingual ASR to Transcription-free Cross-lingual Voice Conversion.**"*arXiv preprint arXiv:2009.14668(2020)*.[[Paper]](https://arxiv.org/ftp/arxiv/papers/2009/2009.14668.pdf) [[Project]](https://github.com/cjerry1243/TransferLearning-CLVC)
-
-:heavy_check_mark: - Guo, Haohan, et al. "**Phonetic Posteriorgrams based Many-to-Many Singing Voice Conversion via Adversarial Training.**"*arXiv preprint arXiv:2012.01837(2020)*.[[Paper]](https://arxiv.org/pdf/2012.01837.pdf) [[Project]](https://github.com/hhguo/EA-SVC)
-
-:heavy_check_mark: - Wang, Zhichao, et al. "**Accent and Speaker Disentanglement in Many-to-many Voice Conversion.**"*arXiv preprint arXiv:2011.08609(2020)*.[[Paper]](https://arxiv.org/pdf/2011.08609.pdf) [[Project]](https://kerwinchao.github.io/AccentVoicejointConversion.github.io/)
-
-:heavy_check_mark: - Zhao, Guanlong, and Ricardo Gutierrez-Osuna. "**Using phonetic posteriorgram based frame pairing for segmental accent conversion.**"*IEEE/ACM Transactions on Audio, Speech, and Language Processing27.10 (2019): 1649-1660*.[[Paper]](https://ieeexplore.ieee.org/document/8755490)
-
-:heavy_check_mark: - Zhou, Kun, et al. "**Seen and unseen emotional style transfer for voice conversion with a new emotional speech dataset.**"*arXiv preprint arXiv:2010.14794(2020)*.[[Paper]](https://arxiv.org/pdf/2010.14794.pdf) [[Project]](https://kunzhou9646.github.io/controllable-evc/)
-
-:heavy_check_mark: - Wang, Jie, et al. "**Adversarially learning disentangled speech representations for robust multi-factor voice conversion.**"*arXiv preprint arXiv:2102.00184(2021)*.[[Paper]](https://arxiv.org/pdf/2102.00184.pdf)
-
-:heavy_check_mark: - Rebryk, Yurii, and Stanislav Beliaev. "**ConVoice: Real-Time Zero-Shot Voice Style Transfer with Convolutional Network.**"*arXiv preprint arXiv:2005.07815(2020)*.[[Paper]](https://www.dropbox.com/s/h781sva0dv177ot/ConVoice.pdf?dl=0)
-
-:heavy_check_mark: - Serrà, Joan, Santiago Pascual, and Carlos Segura. "**Blow: a single-scale hyperconditioned flow for non-parallel raw-audio voice conversion.**"*arXiv preprint arXiv:1906.00794(2019)*.[[Paper]](https://www.dropbox.com/s/6bovin589qr78l8/Blow.pdf?dl=0)
-
-:heavy_check_mark: - **Voice conversion using deep Bidirectional Long Short-Term Memory based Recurrent Neural Networks**(2015), *Lifa Sun et al*. [[Paper]](https://ieeexplore.ieee.org/document/7178896)
-
-:heavy_check_mark: - **Phonetic posteriorgrams for many-to-one voice conversion without parallel data training**(2016), *Lifa Sun et al*. [[Paper]](https://ieeexplore.ieee.org/document/7552917)
-
-
-
-### Music Modelling
-
-- **Latent Diffusion Bridges for Unsupervised Musical Audio Timbre Transfer**(2024), Michele Mancusi et al. [[Paper]](https://arxiv.org/abs/2409.06096) [[Project]](https://github.com/sony/diffusion-timbre-transfer)
-
-- **Onsets and Frames: Dual-Objective Piano Transcription**(2017), Curtis Hawthorne et al. [[Paper]](https://arxiv.org/abs/1710.11153)
-
-- **ByteSing- A Chinese Singing Voice Synthesis System Using Duration Allocated Encoder-Decoder Acoustic Models and WaveRNN Vocoders**(2020), Yu Gu et al. [[Paper]](https://arxiv.org/pdf/2004.11012)
-
-- **HiFiSinger: Towards High-Fidelity Neural Singing Voice Synthesis**(2020), Jiawei Chen et al. [[Paper]](https://arxiv.org/pdf/2009.01776)
-
-- **Jukebox: A Generative Model for Music**(2020), Prafulla Dhariwal et al. [[Paper]](https://arxiv.org/pdf/2005.00341)
-
-- **PeriodNet: A non-autoregressive waveform generation model with a structure separating periodic and aperiodic components**(2021), Yukiya Hono et al. [[Paper]](https://arxiv.org/pdf/2102.07786)
-
-
-### Singing Voice Conversion
-
-:heavy_check_mark: Chen, Gongyu, et al. "YingMusic-SVC: Real-World Robust Zero-Shot Singing Voice Conversion with Flow-GRPO and Singing-Specific Inductive Biases." arXiv preprint arXiv:2512.04793 (2025).[[Paper]](https://arxiv.org/pdf/2512.04793) [[Project]](https://github.com/GiantAILab/YingMusic-SVC)
-
-:heavy_check_mark: Bai, Bingsong, et al. "HQ-SVC: Towards High-Quality Zero-Shot Singing Voice Conversion in Low-Resource Scenarios." arXiv preprint arXiv:2511.08496 (2025).[[Paper]](https://arxiv.org/pdf/2511.08496) [[Project]](https://github.com/ShawnPi233/HQ-SVC)
-
-:heavy_check_mark: Ferreira, Alef Iury Siqueira, et al. "FreeSVC: Towards Zero-shot Multilingual Singing Voice Conversion." arXiv preprint arXiv:2501.05586 (2025).[[Paper]](https://arxiv.org/pdf/2501.05586) [[Project]](https://github.com/freds0/free-svc)
-
-- Lu, Junchen, et al. "**VAW-GAN for Singing Voice Conversion with Non-parallel Training Data.**" *2020 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC). IEEE, 2020*.[[Paper]](https://arxiv.org/pdf/2008.03992.pdf) [[Project]](https://github.com/KunZhou9646/Singing-Voice-Conversion-with-conditional-VAW-GAN)
-
-- SingingVoiceConversion[[Project]](https://github.com/jshong0907/SingingVoiceConversion), Singing-Voice-Conversion[[Project]](https://github.com/solalala-12/Singing-Voice-Conversion)
-
-- Mor, Noam, et al. "**A universal music translation network.**" *arXiv preprint arXiv:1805.07848(2018)*.[[Paper]](https://arxiv.org/abs/1805.07848) [[Project]](https://github.com/facebookresearch/music-translation)
-
-- Guo, Haohan, et al. "**Phonetic Posteriorgrams based Many-to-Many Singing Voice Conversion via Adversarial Training.**" *arXiv preprint arXiv:2012.01837(2020)*.[[Paper]](https://arxiv.org/abs/2012.01837) [[Project]](https://github.com/hhguo/EA-SVC)
-
-- Takahashi, Naoya, Mayank Kumar Singh, and Yuki Mitsufuji. "**Hierarchical disentangled representation learning for singing voice conversion.**" *arXiv preprint arXiv:2101.06842(2021)*.[[Paper]](https://arxiv.org/pdf/2101.06842.pdf)
-
-- Basak, Sakya, et al. "**End-to-end lyrics Recognition with Voice to Singing Style Transfer.**" *arXiv preprint arXiv:2102.08575(2021).*[[Paper]](https://arxiv.org/pdf/2102.08575.pdf)
-
-- Sankaran, Shreeviknesh, Sukavanan Nanjundan, and G. Paavai Anand. "**Anyone GAN Sing.**" *arXiv preprint arXiv:2102.11058(2021).*[[Paper]](https://arxiv.org/pdf/2102.11058.pdf)
-- Tae, Jaesung, Hyeongju Kim, and Younggun Lee. "MLP Singer: Towards Rapid Parallel Korean Singing Voice Synthesis." *arXiv preprint arXiv:2106.07886 (2021).*[[Paper]](https://arxiv.org/pdf/2106.07886.pdf) [[Projects]](https://github.com/CODEJIN/MLPSinger)
-
-
-### Interesting papers
-
-- **The Reversible Residual Network: Backpropagation Without Storing Activations**(2017), Aidan N. Gomez et al. [[Paper]](https://arxiv.org/pdf/1707.04585)
-
-- **FlowSeq: Non-Autoregressive Conditional Sequence Generation with Generative Flow**(2019), Xuezhe Ma et al. [[Paper]](https://arxiv.org/pdf/1909.02480)
-
-- **Learning Problem-agnostic Speech Representations from Multiple Self-supervised Tasks**(2019), Santiago Pascual et al. [[Paper]](https://arxiv.org/pdf/1904.03416.pdf)
-
-- **Self-supervised audio representation learning for mobile devices**(2019), Marco Tagliasacchi et al. [[Paper]](https://arxiv.org/pdf/1905.11796.pdf)
-
-- **SinGAN: Learning a Generative Model from a Single Natural Image**(2019), Tamar Rott Shaham et al. [[Paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Shaham_SinGAN_Learning_a_Generative_Model_From_a_Single_Natural_Image_ICCV_2019_paper.pdf)
-
-- **Audio2Face: Generating Speech/Face Animation from Single Audio with Attention-Based Bidirectional LSTM Networks**(2019), Guanzhong Tian et al. [[Paper]](https://arxiv.org/pdf/1905.11142)
-
-- **Attention is Not Only a Weight: Analyzing Transformers with Vector Norms**(2020), Goro Kobayashi et al. [[Paper]](https://arxiv.org/pdf/2004.10102)
-- **Speak Like a Dog: Human to Non-human creature Voice Conversion**(2022), Kohei Suzuki et al. [[Paper]](https://arxiv.org/abs/2206.04780)
-
-
-## Contact Me
-If you have any questions, Contact Me ，thanks
+# Awesome Voice Conversion
+
+Papers and code for voice conversion and singing voice conversion.
+
+Open [Start here](#start-here) if you want a model you can run. The later sections are the paper index: one row is one work, newest first, and each work is listed once under the closest heading.
+
+## Contents
+
+- [Start here](#start-here)
+- [Voice conversion](#voice-conversion)
+  - [Streaming and real-time](#streaming-and-real-time)
+  - [Zero-shot and any-to-any](#zero-shot-and-any-to-any)
+  - [Diffusion and flow](#diffusion-and-flow)
+  - [GAN](#gan)
+  - [Disentanglement](#disentanglement)
+  - [Recognition-synthesis](#recognition-synthesis)
+  - [Emotion, accent, and cross-lingual](#emotion-accent-and-cross-lingual)
+  - [Challenges and classic methods](#challenges-and-classic-methods)
+  - [Collected without a link](#collected-without-a-link)
+- [Singing voice conversion](#singing-voice-conversion)
+- [Datasets and challenges](#datasets-and-challenges)
+- [Music and other papers](#music-and-other-papers)
+- [Contact](#contact)
+
+## Start here
+
+Systems below are the ones most people clone first. Task-specific papers are in the sections after this table.
+
+| Year | System | Best for | Paper | Code |
+| --- | --- | --- | --- | --- |
+| 2026 | MeanVC 2 | Streaming zero-shot, low latency | [Paper](https://arxiv.org/pdf/2606.09050) | [Code](https://github.com/ASLP-lab/MeanVC2) |
+| 2026 | X-VC | Streaming zero-shot in codec space | [Paper](https://arxiv.org/pdf/2604.12456) | [Code](https://github.com/Jerrister/X-VC) |
+| 2026 | StyleStream | Real-time timbre, accent, and emotion | [Paper](https://arxiv.org/pdf/2602.20113) | [Code](https://github.com/Berkeley-Speech-Group/StyleStream) |
+| 2026 | Stream-Voice-Anon | Real-time conversion and anonymization | [Paper](https://arxiv.org/pdf/2601.13948) | [Code](https://github.com/Plachtaa/StreamVoiceAnon) |
+| 2025 | YingMusic-SVC | Zero-shot singing on real songs | [Paper](https://arxiv.org/pdf/2512.04793) | [Code](https://github.com/GiantAILab/YingMusic-SVC) |
+| 2025 | Vevo | Controllable timbre and speaking style | [Paper](https://arxiv.org/pdf/2502.07243) | [Code](https://github.com/open-mmlab/Amphion/tree/main/models/vc/vevo) |
+| 2025 | MeanVC | Lightweight streaming zero-shot | [Paper](https://arxiv.org/pdf/2510.08392) | [Code](https://github.com/ASLP-lab/MeanVC) |
+| 2024 | Seed-VC | Zero-shot voice and singing conversion | [Paper](https://arxiv.org/pdf/2411.09943) | [Code](https://github.com/Plachtaa/seed-vc) |
+| 2024 | CosyVoice | Zero-shot cloning and conversion | [Paper](https://arxiv.org/pdf/2407.05407) | [Code](https://github.com/FunAudioLLM/CosyVoice) |
+| 2023 | OpenVoice | Instant voice cloning | [Paper](https://arxiv.org/pdf/2312.01479) | [Code](https://github.com/myshell-ai/OpenVoice) |
+| 2023 | kNN-VC | Any-to-any with nearest neighbors | [Paper](https://arxiv.org/pdf/2305.18975.pdf) | [Code](https://github.com/bshall/knn-vc) |
+| 2022 | FreeVC | Text-free one-shot | [Paper](https://arxiv.org/abs/2210.15418) | [Code](https://github.com/OlaWod/FreeVC) |
+| | RVC | Few-shot conversion from a short clip | | [Code](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) |
+| | GPT-SoVITS | Few-shot conversion and TTS | | [Code](https://github.com/RVC-Boss/GPT-SoVITS) |
+| | so-vits-svc | Singing voice conversion | | [Code](https://github.com/svc-develop-team/so-vits-svc) |
+
+## Voice conversion
+
+### Streaming and real-time
+
+| Year | System | Paper | Code |
+| --- | --- | --- | --- |
+| 2026 | MeanVC 2 | [Robust low-latency streaming zero-shot VC](https://arxiv.org/pdf/2606.09050) | [Code](https://github.com/ASLP-lab/MeanVC2) |
+| 2026 | X-VC | [Zero-shot streaming VC in codec space](https://arxiv.org/pdf/2604.12456) | [Code](https://github.com/Jerrister/X-VC) |
+| 2026 | StyleStream | [Real-time zero-shot voice style conversion](https://arxiv.org/pdf/2602.20113) | [Code](https://github.com/Berkeley-Speech-Group/StyleStream) |
+| 2026 | Stream-Voice-Anon | [Real-time speaker anonymization and VC](https://arxiv.org/pdf/2601.13948) | [Code](https://github.com/Plachtaa/StreamVoiceAnon) |
+| 2025 | MeanVC | [Lightweight streaming zero-shot VC via mean flows](https://arxiv.org/pdf/2510.08392) | [Code](https://github.com/ASLP-lab/MeanVC) |
+| 2024 | StreamVC | [Real-time low-latency voice conversion](https://arxiv.org/abs/2401.03078) | [Code](https://github.com/hrnoh24/stream-vc) · [Code](https://github.com/yuval-reshef/StreamVC) |
+| 2023 | LLVC | [Low-latency real-time voice conversion on CPU](https://koe.ai/papers/llvc.pdf) | [Code](https://github.com/KoeAI/LLVC) |
+| 2020 | FastVC | [Fast voice conversion with non-parallel data](https://arxiv.org/abs/2010.04185) | |
+| 2020 | ConVoice | [Real-time zero-shot voice style transfer](https://www.dropbox.com/s/h781sva0dv177ot/ConVoice.pdf?dl=0) | |
+| | Yukarin | Realtime voice conversion application | [Code](https://github.com/Hiroshiba/realtime-yukarin) |
+
+### Zero-shot and any-to-any
+
+| Year | System | Paper | Code |
+| --- | --- | --- | --- |
+| 2025 | GenVC | [Self-supervised zero-shot voice conversion](https://arxiv.org/pdf/2502.04519) | [Code](https://github.com/caizexin/GenVC) |
+| 2025 | Vevo | [Controllable zero-shot voice imitation](https://arxiv.org/pdf/2502.07243) | [Code](https://github.com/open-mmlab/Amphion/tree/main/models/vc/vevo) |
+| 2025 | AdaptVC | [High quality VC with adaptive learning](https://arxiv.org/pdf/2501.01347) | [Code](https://github.com/kaistmm/AdaptVC) |
+| 2024 | Seed-VC | [Zero-shot VC with diffusion transformers](https://arxiv.org/pdf/2411.09943) | [Code](https://github.com/Plachtaa/seed-vc) |
+| 2024 | CosyVoice | [Multilingual zero-shot TTS and voice cloning](https://arxiv.org/pdf/2407.05407) | [Code](https://github.com/FunAudioLLM/CosyVoice) |
+| 2023 | OpenVoice | [Versatile instant voice cloning](https://arxiv.org/pdf/2312.01479) | [Code](https://github.com/myshell-ai/OpenVoice) |
+| 2023 | Phoneme Hallucinator | [One-shot VC via set expansion](https://arxiv.org/abs/2308.06382) | [Code](https://github.com/PhonemeHallucinator/Phoneme_Hallucinator) |
+| 2023 | kNN-VC | [Voice conversion with just nearest neighbors](https://arxiv.org/pdf/2305.18975.pdf) | [Code](https://github.com/bshall/knn-vc) |
+| 2023 | TriAAN-VC | [Triple adaptive attention normalization for any-to-any VC](https://arxiv.org/abs/2303.09057) | [Code](https://github.com/winddori2002/TriAAN-VC) |
+| 2023 | StyleTTS-VC | [One-shot VC by transfer from style-based TTS](https://arxiv.org/abs/2212.14227) | [Code](https://github.com/yl4579/StyleTTS-VC) |
+| 2022 | FreeVC | [Text-free one-shot voice conversion](https://arxiv.org/abs/2210.15418) | [Code](https://github.com/OlaWod/FreeVC) |
+| 2022 | DeID-VC | [Speaker de-identification via zero-shot pseudo VC](https://arxiv.org/abs/2209.04530) | [Code](https://github.com/a43992899/DeID-VC) |
+| 2022 | LVC-VC | [Zero-shot VC with location-variable convolutions](https://arxiv.org/abs/2205.09784) | [Code](https://github.com/wonjune-kang/lvc-vc) |
+| 2021 | Expressive Neural Voice Cloning | [Expressive neural voice cloning](https://www.arxiv-vanity.com/papers/2102.00151/) | |
+| 2020 | FragmentVC | [Any-to-any VC by fusing fine-grained voice fragments](https://arxiv.org/abs/2010.14150) | [Code](https://github.com/yistLin/FragmentVC) |
+| 2019 | AutoVC | [Zero-shot voice style transfer with only autoencoder loss](https://arxiv.org/pdf/1905.05879.pdf) | [Code](https://github.com/auspicious3000/autovc) · [f0-autovc](https://github.com/hrnoh/f0-autovc) · [pytorch](https://github.com/peisuke/AutoVC.pytorch) · [v2](https://github.com/casperwang/autovc_v2) · [WavRNN](https://github.com/freenowill/AutoVC-WavRNN) · [CODEJIN](https://github.com/CODEJIN/AutoVC) |
+
+### Diffusion and flow
+
+| Year | System | Paper | Code |
+| --- | --- | --- | --- |
+| 2023 | DDDM-VC | [Decoupled denoising diffusion models for VC](https://arxiv.org/pdf/2305.15816) | [Code](https://github.com/hayeong0/DDDM-VC) |
+| 2023 | Diff-HierVC | [Diffusion-based hierarchical VC](https://arxiv.org/abs/2311.04693) | [Code](https://github.com/hayeong0/Diff-HierVC) |
+| 2021 | DiffVC | [Diffusion-based VC with fast maximum likelihood sampling](https://arxiv.org/pdf/2109.13821.pdf) | [Code](https://github.com/huawei-noah/Speech-Backbones/tree/main/DiffVC) |
+| 2019 | Blow | [Single-scale hyperconditioned flow for non-parallel VC](https://www.dropbox.com/s/6bovin589qr78l8/Blow.pdf?dl=0) | |
+
+### GAN
+
+| Year | System | Paper | Code |
+| --- | --- | --- | --- |
+| 2022 | NVC-Net | [End-to-end adversarial voice conversion](https://arxiv.org/abs/2106.00992) | [Code](https://github.com/sony/ai-research-code/tree/master/nvcnet) |
+| 2022 | SGAN-VC | [Subband GAN for non-parallel many-to-many VC](https://arxiv.org/pdf/2207.06057.pdf) | [Demo](https://hechang25.github.io/SGAN-VC/) |
+| 2020 | CVC | [Contrastive learning for non-parallel VC](https://arxiv.org/abs/2011.00782) | [Code](https://github.com/Tinglok/CVC) |
+| 2019 | StarGAN-VC2 | [Rethinking conditional methods for StarGAN VC](https://arxiv.org/abs/1907.12279) | [Demo](http://www.kecl.ntt.co.jp/people/kaneko.takuhiro/projects/stargan-vc2/index.html) |
+| 2019 | CycleGAN-VC2 | [Improved CycleGAN-based non-parallel VC](https://arxiv.org/abs/1904.04631) | [Demo](http://www.kecl.ntt.co.jp/people/kaneko.takuhiro/projects/cyclegan-vc2/index.html) · [Code](https://github.com/jackaduma/CycleGAN-VC2) |
+| 2018 | StarGAN-VC | [Non-parallel many-to-many VC with StarGAN](https://arxiv.org/abs/1806.02169) | [Demo](https://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/stargan-vc/) |
+| 2018 | Audio Style Transfer | [Audio style transfer](https://hal.archives-ouvertes.fr/hal-01626389/document) | [Code](https://github.com/inzva/Audio-Style-Transfer) · [Demo](https://egrinstein.github.io/2017/10/25/ast.html) |
+| 2018 | CycleGAN-VC | [Parallel-data-free VC with cycle-consistent adversarial networks](https://arxiv.org/abs/1711.11293) | [Demo](http://www.kecl.ntt.co.jp/people/kaneko.takuhiro/projects/cyclegan-vc/index.html) |
+| 2017 | VAW-GAN | [VC from unaligned corpora with VAE and WGAN](https://arxiv.org/abs/1704.00849) | [Demo](https://jeremycchsu.github.io/vc-vawgan/) |
+| 2015 | RandomCNN voice transfer | [A neural algorithm of artistic style](https://arxiv.org/abs/1508.06576) | [Code](https://github.com/mazzzystar/randomCNN-voice-transfer) |
+
+### Disentanglement
+
+| Year | System | Paper | Code |
+| --- | --- | --- | --- |
+| 2021 | Multi-factor VC | [Adversarially learning disentangled speech representations](https://arxiv.org/pdf/2102.00184.pdf) | |
+| 2020 | SpeechSplit | [Unsupervised speech decomposition via triple information bottleneck](https://arxiv.org/abs/2004.11284) | [Demo](https://auspicious3000.github.io/SpeechSplit-Demo/) |
+| 2020 | CDVAE-VC | [Disentanglement with cross-domain features in a VAE](https://ieeexplore.ieee.org/abstract/document/9057379) | [Code](https://github.com/unilight/cdvae-vc) |
+| 2020 | Any-to-one S3R VC | [Any-to-one seq2seq VC with self-supervised discrete units](https://arxiv.org/pdf/2010.12231.pdf) | |
+| 2020 | CycleVAE + PWG | [VCC 2020 baseline with cyclic VAE and Parallel WaveGAN](https://arxiv.org/abs/2010.04429) | |
+| 2019 | ACVAE-VC | [Many-to-many VC with an auxiliary classifier VAE](https://arxiv.org/abs/1808.05092) | [Demo](http://www.kecl.ntt.co.jp/people/kameoka.hirokazu/Demos/acvae-vc/) |
+| 2019 | Non-parallel seq2seq VC | [Disentangled linguistic and speaker representations](https://arxiv.org/pdf/1906.10508.pdf) | [Code](https://github.com/jxzhanggg/nonparaSeq2seqVC_code) |
+| 2018 | Disentangled multi-target VC | [Multi-target VC by adversarially learning disentangled audio](https://arxiv.org/pdf/1804.02812.pdf) | [Code](https://github.com/BogiHsu/Voice-Conversion) |
+| 2020 | ZeroSpeech VQ-VAE | Acoustic unit discovery and voice conversion | [Code](https://github.com/bshall/ZeroSpeech) |
+
+### Recognition-synthesis
+
+ASR, TTS, or phonetic-posteriorgram pipelines.
+
+| Year | System | Paper | Code |
+| --- | --- | --- | --- |
+| 2022 | HiFi-VC | [High quality ASR-based voice conversion](https://arxiv.org/abs/2203.16937) | [Code](https://github.com/tinkoff-ai/hifi_vc) |
+| 2022 | Hybrid bottleneck VC | [Content and fine-grained prosody via hybrid ASR features](https://arxiv.org/pdf/2203.12813.pdf) | [Demo](https://thuhcsi.github.io/icassp2022-hybrid-bottleneck-vc/) |
+| 2021 | PPG-VC | [Any-to-many VC with location-relative seq2seq modeling](https://arxiv.org/abs/2009.02725v3) | [Code](https://github.com/liusongxiang/ppg-vc) |
+| 2020 | VCC 2020 ASR+TTS | [Cascading ASR and TTS](https://arxiv.org/abs/2010.02434) | [Code](https://github.com/espnet/espnet) |
+| 2020 | TTS-to-VC transfer | [Transfer learning from speech synthesis to VC](https://arxiv.org/abs/2009.14399) | |
+| 2020 | Adversarial many-to-many VC | [Speaker identity via adversarial speaker recognition](https://www.interspeech2020.org/uploadfile/pdf/Mon-2-7-2.pdf) | [Code](https://github.com/shaojinding/Adversarial-Many-to-Many-VC) |
+| 2016 | PPG many-to-one VC | [Phonetic posteriorgrams for many-to-one VC](https://ieeexplore.ieee.org/document/7552917) | [Code](https://github.com/andabi/deep-voice-conversion) |
+
+### Emotion, accent, and cross-lingual
+
+| Year | System | Paper | Code |
+| --- | --- | --- | --- |
+| 2024 | MulliVC | [Multi-lingual VC with cycle consistency](https://arxiv.org/pdf/2408.04708) | |
+| 2024 | DurFlex-EVC | [Duration-flexible emotional voice conversion](https://arxiv.org/pdf/2401.08095v1.pdf) | [Code](https://github.com/hs-oh-prml/durflexevc) |
+| 2024 | Voice transfer for TTS | [Zero-shot cross-lingual voice transfer for TTS](https://arxiv.org/pdf/2409.13910) | |
+| 2023 | Beta-VAE VC | [One-shot cross-lingual VC with a beta-VAE](https://www1.se.cuhk.edu.hk/~hccl/publications/pub/2023%20SLT2022-Beta_VAE_based_one_shot_cross_lingual_VC.pdf) | [Code](https://github.com/light1726/BetaVAE_VC) |
+| 2022 | Speak Like a Dog | [Human to non-human creature voice conversion](https://arxiv.org/abs/2206.04780) | |
+| 2021 | Cross-lingual PPG VC | [Cross-lingual VC with neural TTS and PPG](https://www.arxiv-vanity.com/papers/2102.01991/) | |
+| 2020 | Emotional style transfer | [Seen and unseen emotional style transfer](https://arxiv.org/pdf/2010.14794.pdf) | [Demo](https://kunzhou9646.github.io/controllable-evc/) |
+| 2020 | Accent and speaker | [Accent and speaker disentanglement in many-to-many VC](https://arxiv.org/pdf/2011.08609.pdf) | [Demo](https://kerwinchao.github.io/AccentVoicejointConversion.github.io/) |
+| 2020 | TransferLearning-CLVC | [Monolingual ASR to transcription-free cross-lingual VC](https://arxiv.org/ftp/arxiv/papers/2009/2009.14668.pdf) | [Code](https://github.com/cjerry1243/TransferLearning-CLVC) |
+| 2019 | Segmental accent conversion | [PPG frame pairing for segmental accent conversion](https://ieeexplore.ieee.org/document/8755490) | |
+
+### Challenges and classic methods
+
+| Year | System | Paper | Code |
+| --- | --- | --- | --- |
+| 2020 | VC survey | [From statistical modeling to deep learning](https://arxiv.org/pdf/2008.03648.pdf) | |
+| 2020 | Academia Sinica VCC 2020 | [The Academia Sinica systems for VCC 2020](https://arxiv.org/abs/2010.02669) | |
+| 2020 | NU VCC 2020 | [Seq2seq models and autoregressive neural vocoders](https://arxiv.org/abs/2010.04446) | |
+| 2018 | VCC 2018 | [Promoting parallel and nonparallel methods](https://arxiv.org/abs/1804.04262) | [Dataset](https://datashare.ed.ac.uk/handle/10283/3061) |
+| 2018 | sprocket | [Open-source voice conversion software](https://nuss.nagoya-u.ac.jp/s/h8YKnq6qxjjxtU3#pdfviewer) | [Code](https://github.com/k2kobayashi/sprocket) · [Paper](https://nuss.nagoya-u.ac.jp/s/h8YKnq6qxjjxtU3) · [Samples](https://nuss.nagoya-u.ac.jp/login) |
+| 2016 | F0 transformation | [F0 transformation for statistical VC](https://ieeexplore.ieee.org/document/7846338) | [Code](https://github.com/k2kobayashi/sprocket) |
+| 2015 | BLSTM VC | [VC with deep bidirectional LSTM](https://ieeexplore.ieee.org/document/7178896) | |
+| 2007 | GMM VC | [Maximum likelihood spectral trajectory](https://ieeexplore.ieee.org/document/4317579?reload=true) | |
+
+### Collected without a link
+
+These were in the old method notes and never had a paper or code URL.
+
+- **AGAIN-VC** (2020). One-shot voice conversion with activation guidance and adaptive instance normalization.
+- **Crank**. Non-parallel VC with a vector-quantized VAE and adversarial learning. Kobayashi, Huang, and Toda.
+- **VQ-VAE speech**. VQ-VAE + WaveNet (Chorowski et al., 2019) and VQ-VAE on speech (van den Oord et al., 2017).
+- **HVQ-VAE**. Cross-lingual VC with a hierarchical vector-quantized VAE. Ho and Akagi, VCC 2020.
+- **CycleVAE**. Cyclic VAE voice conversion with Parallel WaveGAN for VCC 2020. The linked baseline is in [Disentanglement](#disentanglement).
+- **Unaligned-data VC**. Comparison of a standard VAE, VQ-VAE, and Gumbel VAE on VCC 2016.
+- **ZeroSpeech 2019**. Unsupervised discrete linguistic units for voice conversion ("TTS without T").
+- **MelGAN-VC**. Voice conversion and audio style transfer on long spectrograms.
+- **Cotatron**. Transcription-guided speech encoder for any-to-many VC without parallel data. Park, Kim, and Joe.
+- **WaveNet autoencoders** (ZeroSpeech 2020). Instance normalization (IN-WAE) and sliced vector quantization (SVQ-WAE).
+- **Adversarial WaveNet VC** (2019). WaveNet autoencoders with one decoder per voice and adversarial domain adaptation.
+
+## Singing voice conversion
+
+| Year | System | Paper | Code |
+| --- | --- | --- | --- |
+| 2025 | YingMusic-SVC | [Robust zero-shot singing VC with Flow-GRPO](https://arxiv.org/pdf/2512.04793) | [Code](https://github.com/GiantAILab/YingMusic-SVC) |
+| 2025 | HQ-SVC | [High-quality zero-shot SVC in low-resource settings](https://arxiv.org/pdf/2511.08496) | [Code](https://github.com/ShawnPi233/HQ-SVC) |
+| 2025 | FreeSVC | [Zero-shot multilingual singing voice conversion](https://arxiv.org/pdf/2501.05586) | [Code](https://github.com/freds0/free-svc) |
+| 2021 | Hierarchical SVC | [Hierarchical disentangled representation learning for SVC](https://arxiv.org/pdf/2101.06842.pdf) | |
+| 2021 | Lyrics and style transfer | [End-to-end lyrics recognition with voice-to-singing transfer](https://arxiv.org/pdf/2102.08575.pdf) | |
+| 2021 | Anyone GAN Sing | [Anyone GAN Sing](https://arxiv.org/pdf/2102.11058.pdf) | |
+| 2021 | MLP Singer | [Rapid parallel Korean singing voice synthesis](https://arxiv.org/pdf/2106.07886.pdf) | [Code](https://github.com/CODEJIN/MLPSinger) |
+| 2020 | EA-SVC | [PPG-based many-to-many SVC via adversarial training](https://arxiv.org/pdf/2012.01837.pdf) | [Code](https://github.com/hhguo/EA-SVC) · [Paper](https://arxiv.org/abs/2012.01837) |
+| 2020 | PPG SVC | [PPG-based singing VC with adversarial representation learning](https://arxiv.org/pdf/2010.14804.pdf) | |
+| 2020 | VAW-GAN SVC | [VAW-GAN for SVC with non-parallel data](https://arxiv.org/pdf/2008.03992.pdf) | [Code](https://github.com/KunZhou9646/Singing-Voice-Conversion-with-conditional-VAW-GAN) |
+| 2020 | Speech-to-singing | [Speech-to-singing conversion with BEGAN](https://arxiv.org/pdf/2005.13835.pdf) | [Code](https://github.com/ericwudayi/speech2singing) |
+| 2018 | Universal music translation | [A universal music translation network](https://arxiv.org/abs/1805.07848) | [Code](https://github.com/facebookresearch/music-translation) |
+| | so-vits-svc | SoftVC VITS singing voice conversion | [Code](https://github.com/svc-develop-team/so-vits-svc) |
+| | SingingVoiceConversion | | [Code](https://github.com/jshong0907/SingingVoiceConversion) |
+| | Singing-Voice-Conversion | | [Code](https://github.com/solalala-12/Singing-Voice-Conversion) |
+
+## Datasets and challenges
+
+| Name | What it is | Link |
+| --- | --- | --- |
+| Voice Conversion Challenge | Challenge home | [Home](http://www.vc-challenge.org/) |
+| ZeroSpeech | 2020 challenge news | [Home](https://zerospeech.com/2020/news.html) |
+| VCTK | Multi-speaker English speech | [Download](https://datashare.is.ed.ac.uk/handle/10283/3443) |
+| ZeroSpeech 2020 | Challenge data | [Download](https://download.zerospeech.com/) |
+| VCC 2016 | Voice Conversion Challenge 2016 | [Download](https://datashare.is.ed.ac.uk/handle/10283/2211) |
+| VCC 2018 | Voice Conversion Challenge 2018 | [Download](https://datashare.is.ed.ac.uk/handle/10283/3061) · [Mirror](https://datashare.ed.ac.uk/handle/10283/3061) |
+
+The VCC 2018 overview paper is in [Challenges and classic methods](#challenges-and-classic-methods).
+
+## Music and other papers
+
+### Music
+
+| Year | System | Paper | Code |
+| --- | --- | --- | --- |
+| 2024 | Latent diffusion bridges | [Unsupervised musical audio timbre transfer](https://arxiv.org/abs/2409.06096) | [Code](https://github.com/sony/diffusion-timbre-transfer) |
+| 2021 | Self-supervised VQ-VAE | [One-shot music style transfer](https://arxiv.org/abs/2102.05749) | [Code](https://github.com/cifkao/ss-vq-vae) |
+| 2021 | PeriodNet | [Periodic and aperiodic waveform generation](https://arxiv.org/pdf/2102.07786) | |
+| 2020 | HiFiSinger | [High-fidelity neural singing voice synthesis](https://arxiv.org/pdf/2009.01776) | |
+| 2020 | ByteSing | [Chinese singing voice synthesis](https://arxiv.org/pdf/2004.11012) | |
+| 2020 | Jukebox | [A generative model for music](https://arxiv.org/pdf/2005.00341) | |
+| 2020 | Parallel WaveGAN | [Fast waveform generation with a multi-resolution spectrogram GAN](https://arxiv.org/pdf/1910.11480.pdf) | |
+| 2017 | Onsets and Frames | [Dual-objective piano transcription](https://arxiv.org/abs/1710.11153) | |
+| 2016 | WORLD | [Vocoder-based speech synthesis for real-time use](https://www.jstage.jst.go.jp/article/transinf/E99.D/7/E99.D_2015EDP7457/_article) | [Code](http://www.kki.yamanashi.ac.jp/~mmorise/world/english/index.html) |
+
+### Other
+
+| Year | System | Paper |
+| --- | --- | --- |
+| 2020 | Attention norms | [Attention is not only a weight: analyzing Transformers with vector norms](https://arxiv.org/pdf/2004.10102) |
+| 2019 | FlowSeq | [Non-autoregressive conditional sequence generation with generative flow](https://arxiv.org/pdf/1909.02480) |
+| 2019 | PASE | [Problem-agnostic speech representations from multiple self-supervised tasks](https://arxiv.org/pdf/1904.03416.pdf) |
+| 2019 | Mobile audio SSL | [Self-supervised audio representation learning for mobile devices](https://arxiv.org/pdf/1905.11796.pdf) |
+| 2019 | SinGAN | [Learning a generative model from a single natural image](http://openaccess.thecvf.com/content_ICCV_2019/papers/Shaham_SinGAN_Learning_a_Generative_Model_From_a_Single_Natural_Image_ICCV_2019_paper.pdf) |
+| 2019 | Audio2Face | [Speech and face animation from a single audio](https://arxiv.org/pdf/1905.11142) |
+| 2017 | RevNet | [The reversible residual network](https://arxiv.org/pdf/1707.04585) |
+
+## Contact
+
+Questions and additions are welcome.
