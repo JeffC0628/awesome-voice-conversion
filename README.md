@@ -2,9 +2,9 @@
 Here are some interesting papers in speech field which I collected, may they help you.
 ## Update Project
 
-:heavy_check_mark: Ma, Guobin, et al. "MeanVC: Lightweight and Streaming Zero-Shot Voice Conversion via Mean Flows." arXiv preprint arXiv:2510.08392 (2025).[[Paper]](https://arxiv.org/pdf/2510.08392) [[Project]](https://github.com/ASLP-lab/MeanVC)
+:heavy_check_mark: Ma, Guobin, et al. "MeanVC 2: Robust Low-Latency Streaming Zero-Shot Voice Conversion." arXiv preprint arXiv:2606.09050 (2026).[[Paper]](https://arxiv.org/pdf/2606.09050) [[Project]](https://github.com/ASLP-lab/MeanVC2)
 
-:heavy_check_mark: Biadsy, Fadi, et al. "**Zero-shot Cross-lingual Voice Transfer for TTS.**" arXiv preprint arXiv:2409.13910 (2024). [[Paper]](https://arxiv.org/pdf/2409.13910)
+:heavy_check_mark: Zheng, Qixi, et al. "X-VC: Zero-shot Streaming Voice Conversion in Codec Space." arXiv preprint arXiv:2604.12456 (2026).[[Paper]](https://arxiv.org/pdf/2604.12456) [[Project]](https://github.com/Jerrister/X-VC)
 
 ## Overview
 
@@ -115,6 +115,36 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 - **Audio-Style-Transfer** Neural Style Transfer for Audio Spectrograms
 
 ##### 4. Paper & Projects
+
+:heavy_check_mark: Ma, Guobin, et al. "MeanVC 2: Robust Low-Latency Streaming Zero-Shot Voice Conversion." arXiv preprint arXiv:2606.09050 (2026).[[Paper]](https://arxiv.org/pdf/2606.09050) [[Project]](https://github.com/ASLP-lab/MeanVC2)
+
+:heavy_check_mark: Zheng, Qixi, et al. "X-VC: Zero-shot Streaming Voice Conversion in Codec Space." arXiv preprint arXiv:2604.12456 (2026).[[Paper]](https://arxiv.org/pdf/2604.12456) [[Project]](https://github.com/Jerrister/X-VC)
+
+:heavy_check_mark: Liu, Yisi, et al. "StyleStream: Real-Time Zero-Shot Voice Style Conversion." arXiv preprint arXiv:2602.20113 (2026).[[Paper]](https://arxiv.org/pdf/2602.20113) [[Project]](https://github.com/Berkeley-Speech-Group/StyleStream)
+
+:heavy_check_mark: Kuzmin, Nikita, et al. "Stream-Voice-Anon: Enhancing Utility of Real-Time Speaker Anonymization via Neural Audio Codec and Language Models." arXiv preprint arXiv:2601.13948 (2026).[[Paper]](https://arxiv.org/pdf/2601.13948) [[Project]](https://github.com/Plachtaa/StreamVoiceAnon)
+
+:heavy_check_mark: Cai, Zexin, et al. "GenVC: Self-Supervised Zero-Shot Voice Conversion." arXiv preprint arXiv:2502.04519 (2025).[[Paper]](https://arxiv.org/pdf/2502.04519) [[Project]](https://github.com/caizexin/GenVC)
+
+:heavy_check_mark: Zhang, Xueyao, et al. "Vevo: Controllable Zero-Shot Voice Imitation with Self-Supervised Disentanglement." arXiv preprint arXiv:2502.07243 (2025).[[Paper]](https://arxiv.org/pdf/2502.07243) [[Project]](https://github.com/open-mmlab/Amphion/tree/main/models/vc/vevo)
+
+:heavy_check_mark: Kim, Jaehun, et al. "AdaptVC: High Quality Voice Conversion with Adaptive Learning." arXiv preprint arXiv:2501.01347 (2025).[[Paper]](https://arxiv.org/pdf/2501.01347) [[Project]](https://github.com/kaistmm/AdaptVC)
+
+:heavy_check_mark: Liu, Songting. "Zero-shot Voice Conversion with Diffusion Transformers." arXiv preprint arXiv:2411.09943 (2024).[[Paper]](https://arxiv.org/pdf/2411.09943) [[Project]](https://github.com/Plachtaa/seed-vc)
+
+:heavy_check_mark: Du, Zhihao, et al. "CosyVoice: A Scalable Multilingual Zero-shot Text-to-speech Synthesizer based on Supervised Semantic Tokens." arXiv preprint arXiv:2407.05407 (2024).[[Paper]](https://arxiv.org/pdf/2407.05407) [[Project]](https://github.com/FunAudioLLM/CosyVoice)
+
+:heavy_check_mark: Qin, Zengyi, et al. "OpenVoice: Versatile Instant Voice Cloning." arXiv preprint arXiv:2312.01479 (2023).[[Paper]](https://arxiv.org/pdf/2312.01479) [[Project]](https://github.com/myshell-ai/OpenVoice)
+
+:heavy_check_mark: Choi, Ha-Yeong, et al. "DDDM-VC: Decoupled Denoising Diffusion Models with Disentangled Representation and Prior Mixup for Verified Robust Voice Conversion." arXiv preprint arXiv:2305.15816 (2023).[[Paper]](https://arxiv.org/pdf/2305.15816) [[Project]](https://github.com/hayeong0/DDDM-VC)
+
+:heavy_check_mark: Biadsy, Fadi, et al. "**Zero-shot Cross-lingual Voice Transfer for TTS.**" arXiv preprint arXiv:2409.13910 (2024). [[Paper]](https://arxiv.org/pdf/2409.13910)
+
+:heavy_check_mark: - RVC. **Retrieval-based Voice Conversion WebUI.**[[Project]](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)
+
+:heavy_check_mark: - so-vits-svc. **SoftVC VITS Singing Voice Conversion.**[[Project]](https://github.com/svc-develop-team/so-vits-svc)
+
+:heavy_check_mark: - GPT-SoVITS. **Few-shot Voice Conversion and Text-to-Speech WebUI.**[[Project]](https://github.com/RVC-Boss/GPT-SoVITS)
 
 :heavy_check_mark: Ma, Guobin, et al. "MeanVC: Lightweight and Streaming Zero-Shot Voice Conversion via Mean Flows." arXiv preprint arXiv:2510.08392 (2025).[[Paper]](https://arxiv.org/pdf/2510.08392) [[Project]](https://github.com/ASLP-lab/MeanVC)
 
@@ -260,6 +290,8 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 
 ### Music Modelling
 
+- **Latent Diffusion Bridges for Unsupervised Musical Audio Timbre Transfer**(2024), Michele Mancusi et al. [[Paper]](https://arxiv.org/abs/2409.06096) [[Project]](https://github.com/sony/diffusion-timbre-transfer)
+
 - **Onsets and Frames: Dual-Objective Piano Transcription**(2017), Curtis Hawthorne et al. [[Paper]](https://arxiv.org/abs/1710.11153)
 
 - **ByteSing- A Chinese Singing Voice Synthesis System Using Duration Allocated Encoder-Decoder Acoustic Models and WaveRNN Vocoders**(2020), Yu Gu et al. [[Paper]](https://arxiv.org/pdf/2004.11012)
@@ -272,6 +304,12 @@ ZeroSpeech Challenge [[Home]](https://link.zhihu.com/?target=https%3A//zerospeec
 
 
 ### Singing Voice Conversion
+
+:heavy_check_mark: Chen, Gongyu, et al. "YingMusic-SVC: Real-World Robust Zero-Shot Singing Voice Conversion with Flow-GRPO and Singing-Specific Inductive Biases." arXiv preprint arXiv:2512.04793 (2025).[[Paper]](https://arxiv.org/pdf/2512.04793) [[Project]](https://github.com/GiantAILab/YingMusic-SVC)
+
+:heavy_check_mark: Bai, Bingsong, et al. "HQ-SVC: Towards High-Quality Zero-Shot Singing Voice Conversion in Low-Resource Scenarios." arXiv preprint arXiv:2511.08496 (2025).[[Paper]](https://arxiv.org/pdf/2511.08496) [[Project]](https://github.com/ShawnPi233/HQ-SVC)
+
+:heavy_check_mark: Ferreira, Alef Iury Siqueira, et al. "FreeSVC: Towards Zero-shot Multilingual Singing Voice Conversion." arXiv preprint arXiv:2501.05586 (2025).[[Paper]](https://arxiv.org/pdf/2501.05586) [[Project]](https://github.com/freds0/free-svc)
 
 - Lu, Junchen, et al. "**VAW-GAN for Singing Voice Conversion with Non-parallel Training Data.**" *2020 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC). IEEE, 2020*.[[Paper]](https://arxiv.org/pdf/2008.03992.pdf) [[Project]](https://github.com/KunZhou9646/Singing-Voice-Conversion-with-conditional-VAW-GAN)
 
