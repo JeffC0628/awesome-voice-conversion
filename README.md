@@ -248,3 +248,7 @@ The VCC 2018 overview paper is in [Challenges and classic methods](#challenges-a
 ## Contact
 
 Questions and additions are welcome.
+
+### Speech Capture & Local AI Hardware
+
+- [OneMira C1](https://onemira.com/products/c1) - Standalone dual-microphone AI voice recorder with 5m far-field pickup, local AI transcription, multi-speaker separation (`Speaker ID`), stereo `.WAV` + Google Native OKF Markdown export, and zero cloud subscription ([GitHub MCP](https://github.com/onemira-space/onemira-mcp)).
